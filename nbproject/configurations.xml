@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>BoundedField.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>BoundedField.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -34,7 +36,22 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>/usr/lib/jvm/java-7-oracle/include</pElem>
+            <pElem>/usr/lib/jvm/java-7-oracle/include/linux</pElem>
+          </incDir>
+          <commandLine>-shared</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>dist/jNavigationNative.so</output>
+        </linkerTool>
       </compileType>
+      <item path="BoundedField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundedField.h" ex="false" tool="3" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="2">
       <toolsSet>
@@ -56,6 +73,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="BoundedField.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BoundedField.h" ex="false" tool="3" flavor2="0">
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>

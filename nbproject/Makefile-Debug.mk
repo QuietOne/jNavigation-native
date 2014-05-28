@@ -34,15 +34,16 @@ include Makefile
 OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
-OBJECTFILES=
+OBJECTFILES= \
+	${OBJECTDIR}/BoundedField.o
 
 
 # C Compiler Flags
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=
-CXXFLAGS=
+CCFLAGS=-m64 -shared
+CXXFLAGS=-m64 -shared
 
 # Fortran Compiler Flags
 FFLAGS=
@@ -55,11 +56,16 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigation-native.${CND_DLIB_EXT}
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk dist/jNavigationNative.so
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigation-native.${CND_DLIB_EXT}: ${OBJECTFILES}
-	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigation-native.${CND_DLIB_EXT} ${OBJECTFILES} ${LDLIBSOPTIONS} -shared -fPIC
+dist/jNavigationNative.so: ${OBJECTFILES}
+	${MKDIR} -p dist
+	${LINK.cc} -o dist/jNavigationNative.so ${OBJECTFILES} ${LDLIBSOPTIONS} -shared -fPIC
+
+${OBJECTDIR}/BoundedField.o: BoundedField.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/BoundedField.o BoundedField.cpp
 
 # Subprojects
 .build-subprojects:
@@ -67,7 +73,7 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigation-native.${CND_DLIB_EXT}
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigation-native.${CND_DLIB_EXT}
+	${RM} dist/jNavigationNative.so
 
 # Subprojects
 .clean-subprojects:
