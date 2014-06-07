@@ -15,7 +15,7 @@ NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
 OUTPUT_PATH=dist/jNavigationNative.so
 OUTPUT_BASENAME=jNavigationNative.so
-PACKAGE_TOP_DIR=libjNavigation-native.so/
+PACKAGE_TOP_DIR=jNavigationNative/
 
 # Functions
 function checkReturnCode
@@ -54,21 +54,21 @@ function copyFileToTmpDir
 
 # Setup
 cd "${TOP}"
-mkdir -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package
+mkdir -p dist
 rm -rf ${NBTMPDIR}
 mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/libjNavigation-native.so/lib"
+makeDirectory "${NBTMPDIR}/jNavigationNative/lib"
 copyFileToTmpDir "${OUTPUT_PATH}" "${NBTMPDIR}/${PACKAGE_TOP_DIR}lib/${OUTPUT_BASENAME}" 0644
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/libjNavigation-native.so.tar
+rm -f dist/jNavigationNative.so
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/libjNavigation-native.so.tar *
+tar -vcf ../../../../dist/jNavigationNative.so *
 checkReturnCode
 
 # Cleanup

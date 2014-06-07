@@ -5,11 +5,14 @@
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>jNavigation-native</name>
             <c-extensions/>
-            <cpp-extensions>cpp</cpp-extensions>
+            <cpp-extensions>cpp,cxx</cpp-extensions>
             <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>../../Downloads/recastnavigation-master/Recast</sourceRootElem>
+                <sourceRootElem>recastnavigation</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>Debug</name>

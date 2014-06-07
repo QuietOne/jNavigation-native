@@ -35,7 +35,17 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/BoundedField.o
+	${OBJECTDIR}/Recast_wrap.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/Recast.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastAlloc.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastArea.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastContour.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastFilter.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastLayers.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastMesh.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastMeshDetail.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastRasterization.o \
+	${OBJECTDIR}/recastnavigation/Recast/Source/RecastRegion.o
 
 
 # C Compiler Flags
@@ -62,10 +72,60 @@ dist/jNavigationNative.so: ${OBJECTFILES}
 	${MKDIR} -p dist
 	${LINK.cc} -o dist/jNavigationNative.so ${OBJECTFILES} ${LDLIBSOPTIONS} -shared -fPIC
 
-${OBJECTDIR}/BoundedField.o: BoundedField.cpp 
+${OBJECTDIR}/Recast_wrap.o: Recast_wrap.cxx 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
-	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/BoundedField.o BoundedField.cpp
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast_wrap.o Recast_wrap.cxx
+
+${OBJECTDIR}/recastnavigation/Recast/Source/Recast.o: recastnavigation/Recast/Source/Recast.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/Recast.o recastnavigation/Recast/Source/Recast.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastAlloc.o: recastnavigation/Recast/Source/RecastAlloc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastAlloc.o recastnavigation/Recast/Source/RecastAlloc.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastArea.o: recastnavigation/Recast/Source/RecastArea.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastArea.o recastnavigation/Recast/Source/RecastArea.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastContour.o: recastnavigation/Recast/Source/RecastContour.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastContour.o recastnavigation/Recast/Source/RecastContour.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastFilter.o: recastnavigation/Recast/Source/RecastFilter.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastFilter.o recastnavigation/Recast/Source/RecastFilter.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastLayers.o: recastnavigation/Recast/Source/RecastLayers.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastLayers.o recastnavigation/Recast/Source/RecastLayers.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastMesh.o: recastnavigation/Recast/Source/RecastMesh.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastMesh.o recastnavigation/Recast/Source/RecastMesh.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastMeshDetail.o: recastnavigation/Recast/Source/RecastMeshDetail.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastMeshDetail.o recastnavigation/Recast/Source/RecastMeshDetail.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastRasterization.o: recastnavigation/Recast/Source/RecastRasterization.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastRasterization.o recastnavigation/Recast/Source/RecastRasterization.cpp
+
+${OBJECTDIR}/recastnavigation/Recast/Source/RecastRegion.o: recastnavigation/Recast/Source/RecastRegion.cpp 
+	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -g -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -Irecastnavigation/Recast/Include -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastRegion.o recastnavigation/Recast/Source/RecastRegion.cpp
 
 # Subprojects
 .build-subprojects:

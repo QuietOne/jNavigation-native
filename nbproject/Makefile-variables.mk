@@ -11,17 +11,17 @@ CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist
 CND_ARTIFACT_NAME_Debug=jNavigationNative.so
 CND_ARTIFACT_PATH_Debug=dist/jNavigationNative.so
-CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=libjNavigation-native.so.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/libjNavigation-native.so.tar
+CND_PACKAGE_DIR_Debug=dist
+CND_PACKAGE_NAME_Debug=jNavigationNative.so
+CND_PACKAGE_PATH_Debug=dist/jNavigationNative.so
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=libjNavigation-native.so
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/libjNavigation-native.so
+CND_ARTIFACT_NAME_Release=libjNavigationNative.so
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/libjNavigationNative.so
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=libjNavigation-native.so.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/libjNavigation-native.so.tar
+CND_PACKAGE_NAME_Release=libjNavigationNative.so.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/libjNavigationNative.so.tar
 #
 # include compiler specific variables
 #

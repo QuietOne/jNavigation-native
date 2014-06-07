@@ -4,7 +4,9 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>BoundedField.h</itemPath>
+      <itemPath>recastnavigation/Recast/Include/Recast.h</itemPath>
+      <itemPath>recastnavigation/Recast/Include/RecastAlloc.h</itemPath>
+      <itemPath>recastnavigation/Recast/Include/RecastAssert.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -13,7 +15,17 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>BoundedField.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/Recast.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastAlloc.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastArea.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastContour.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastFilter.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastLayers.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastMesh.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastMeshDetail.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastRasterization.cpp</itemPath>
+      <itemPath>recastnavigation/Recast/Source/RecastRegion.cpp</itemPath>
+      <itemPath>Recast_wrap.cxx</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -27,6 +39,10 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../../Downloads/recastnavigation-master/Recast</Elem>
+    <Elem>recastnavigation</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="2">
@@ -41,6 +57,7 @@
           <incDir>
             <pElem>/usr/lib/jvm/java-7-oracle/include</pElem>
             <pElem>/usr/lib/jvm/java-7-oracle/include/linux</pElem>
+            <pElem>recastnavigation/Recast/Include</pElem>
           </incDir>
           <commandLine>-shared</commandLine>
         </ccTool>
@@ -48,9 +65,84 @@
           <output>dist/jNavigationNative.so</output>
         </linkerTool>
       </compileType>
-      <item path="BoundedField.cpp" ex="false" tool="1" flavor2="0">
+      <packaging>
+        <packType>Tar</packType>
+        <output>dist/jNavigationNative.so</output>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}lib/${OUTPUT_BASENAME}"
+                            from="${OUTPUT_PATH}"
+                            perm="644"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="Recast_wrap.cxx" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="BoundedField.h" ex="false" tool="3" flavor2="0">
+      <item path="recastnavigation/Recast/Include/Recast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Include/RecastAlloc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Include/RecastAssert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/Recast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastAlloc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastArea.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastContour.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastFilter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastLayers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastMesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastMeshDetail.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastRasterization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastRegion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="2">
@@ -73,9 +165,72 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="BoundedField.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Recast_wrap.cxx" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="BoundedField.h" ex="false" tool="3" flavor2="0">
+      <item path="recastnavigation/Recast/Include/Recast.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Include/RecastAlloc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Include/RecastAssert.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/Recast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastAlloc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastArea.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastContour.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastFilter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastLayers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastMesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastMeshDetail.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastRasterization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="recastnavigation/Recast/Source/RecastRegion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
     </conf>
   </confs>

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=jNavigation-native
+PROJECTNAME=jNavigationNative
 
 # Active Configuration
 DEFAULTCONF=Debug
