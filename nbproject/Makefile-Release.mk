@@ -35,17 +35,31 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Recast_wrap.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/Recast.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastAlloc.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastArea.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastContour.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastFilter.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastLayers.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastMesh.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastMeshDetail.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastRasterization.o \
-	${OBJECTDIR}/recastnavigation/Recast/Source/RecastRegion.o
+	${OBJECTDIR}/Recast/Source/DetourAlloc.o \
+	${OBJECTDIR}/Recast/Source/DetourCommon.o \
+	${OBJECTDIR}/Recast/Source/DetourCrowd.o \
+	${OBJECTDIR}/Recast/Source/DetourLocalBoundary.o \
+	${OBJECTDIR}/Recast/Source/DetourNavMesh.o \
+	${OBJECTDIR}/Recast/Source/DetourNavMeshBuilder.o \
+	${OBJECTDIR}/Recast/Source/DetourNavMeshQuery.o \
+	${OBJECTDIR}/Recast/Source/DetourNode.o \
+	${OBJECTDIR}/Recast/Source/DetourObstacleAvoidance.o \
+	${OBJECTDIR}/Recast/Source/DetourPathCorridor.o \
+	${OBJECTDIR}/Recast/Source/DetourPathQueue.o \
+	${OBJECTDIR}/Recast/Source/DetourProximityGrid.o \
+	${OBJECTDIR}/Recast/Source/DetourTileCache.o \
+	${OBJECTDIR}/Recast/Source/DetourTileCacheBuilder.o \
+	${OBJECTDIR}/Recast/Source/Recast.o \
+	${OBJECTDIR}/Recast/Source/RecastAlloc.o \
+	${OBJECTDIR}/Recast/Source/RecastArea.o \
+	${OBJECTDIR}/Recast/Source/RecastContour.o \
+	${OBJECTDIR}/Recast/Source/RecastFilter.o \
+	${OBJECTDIR}/Recast/Source/RecastLayers.o \
+	${OBJECTDIR}/Recast/Source/RecastMesh.o \
+	${OBJECTDIR}/Recast/Source/RecastMeshDetail.o \
+	${OBJECTDIR}/Recast/Source/RecastRasterization.o \
+	${OBJECTDIR}/Recast/Source/RecastRegion.o \
+	${OBJECTDIR}/Recast_wrap.o
 
 
 # C Compiler Flags
@@ -72,60 +86,130 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigationNative.${CND_DLIB_EXT}:
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libjNavigationNative.${CND_DLIB_EXT} ${OBJECTFILES} ${LDLIBSOPTIONS} -shared -fPIC
 
+${OBJECTDIR}/Recast/Source/DetourAlloc.o: Recast/Source/DetourAlloc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourAlloc.o Recast/Source/DetourAlloc.cpp
+
+${OBJECTDIR}/Recast/Source/DetourCommon.o: Recast/Source/DetourCommon.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourCommon.o Recast/Source/DetourCommon.cpp
+
+${OBJECTDIR}/Recast/Source/DetourCrowd.o: Recast/Source/DetourCrowd.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourCrowd.o Recast/Source/DetourCrowd.cpp
+
+${OBJECTDIR}/Recast/Source/DetourLocalBoundary.o: Recast/Source/DetourLocalBoundary.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourLocalBoundary.o Recast/Source/DetourLocalBoundary.cpp
+
+${OBJECTDIR}/Recast/Source/DetourNavMesh.o: Recast/Source/DetourNavMesh.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourNavMesh.o Recast/Source/DetourNavMesh.cpp
+
+${OBJECTDIR}/Recast/Source/DetourNavMeshBuilder.o: Recast/Source/DetourNavMeshBuilder.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourNavMeshBuilder.o Recast/Source/DetourNavMeshBuilder.cpp
+
+${OBJECTDIR}/Recast/Source/DetourNavMeshQuery.o: Recast/Source/DetourNavMeshQuery.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourNavMeshQuery.o Recast/Source/DetourNavMeshQuery.cpp
+
+${OBJECTDIR}/Recast/Source/DetourNode.o: Recast/Source/DetourNode.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourNode.o Recast/Source/DetourNode.cpp
+
+${OBJECTDIR}/Recast/Source/DetourObstacleAvoidance.o: Recast/Source/DetourObstacleAvoidance.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourObstacleAvoidance.o Recast/Source/DetourObstacleAvoidance.cpp
+
+${OBJECTDIR}/Recast/Source/DetourPathCorridor.o: Recast/Source/DetourPathCorridor.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourPathCorridor.o Recast/Source/DetourPathCorridor.cpp
+
+${OBJECTDIR}/Recast/Source/DetourPathQueue.o: Recast/Source/DetourPathQueue.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourPathQueue.o Recast/Source/DetourPathQueue.cpp
+
+${OBJECTDIR}/Recast/Source/DetourProximityGrid.o: Recast/Source/DetourProximityGrid.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourProximityGrid.o Recast/Source/DetourProximityGrid.cpp
+
+${OBJECTDIR}/Recast/Source/DetourTileCache.o: Recast/Source/DetourTileCache.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourTileCache.o Recast/Source/DetourTileCache.cpp
+
+${OBJECTDIR}/Recast/Source/DetourTileCacheBuilder.o: Recast/Source/DetourTileCacheBuilder.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/DetourTileCacheBuilder.o Recast/Source/DetourTileCacheBuilder.cpp
+
+${OBJECTDIR}/Recast/Source/Recast.o: Recast/Source/Recast.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/Recast.o Recast/Source/Recast.cpp
+
+${OBJECTDIR}/Recast/Source/RecastAlloc.o: Recast/Source/RecastAlloc.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastAlloc.o Recast/Source/RecastAlloc.cpp
+
+${OBJECTDIR}/Recast/Source/RecastArea.o: Recast/Source/RecastArea.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastArea.o Recast/Source/RecastArea.cpp
+
+${OBJECTDIR}/Recast/Source/RecastContour.o: Recast/Source/RecastContour.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastContour.o Recast/Source/RecastContour.cpp
+
+${OBJECTDIR}/Recast/Source/RecastFilter.o: Recast/Source/RecastFilter.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastFilter.o Recast/Source/RecastFilter.cpp
+
+${OBJECTDIR}/Recast/Source/RecastLayers.o: Recast/Source/RecastLayers.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastLayers.o Recast/Source/RecastLayers.cpp
+
+${OBJECTDIR}/Recast/Source/RecastMesh.o: Recast/Source/RecastMesh.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastMesh.o Recast/Source/RecastMesh.cpp
+
+${OBJECTDIR}/Recast/Source/RecastMeshDetail.o: Recast/Source/RecastMeshDetail.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastMeshDetail.o Recast/Source/RecastMeshDetail.cpp
+
+${OBJECTDIR}/Recast/Source/RecastRasterization.o: Recast/Source/RecastRasterization.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastRasterization.o Recast/Source/RecastRasterization.cpp
+
+${OBJECTDIR}/Recast/Source/RecastRegion.o: Recast/Source/RecastRegion.cpp 
+	${MKDIR} -p ${OBJECTDIR}/Recast/Source
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast/Source/RecastRegion.o Recast/Source/RecastRegion.cpp
+
 ${OBJECTDIR}/Recast_wrap.o: Recast_wrap.cxx 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/Recast_wrap.o Recast_wrap.cxx
-
-${OBJECTDIR}/recastnavigation/Recast/Source/Recast.o: recastnavigation/Recast/Source/Recast.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/Recast.o recastnavigation/Recast/Source/Recast.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastAlloc.o: recastnavigation/Recast/Source/RecastAlloc.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastAlloc.o recastnavigation/Recast/Source/RecastAlloc.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastArea.o: recastnavigation/Recast/Source/RecastArea.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastArea.o recastnavigation/Recast/Source/RecastArea.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastContour.o: recastnavigation/Recast/Source/RecastContour.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastContour.o recastnavigation/Recast/Source/RecastContour.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastFilter.o: recastnavigation/Recast/Source/RecastFilter.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastFilter.o recastnavigation/Recast/Source/RecastFilter.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastLayers.o: recastnavigation/Recast/Source/RecastLayers.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastLayers.o recastnavigation/Recast/Source/RecastLayers.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastMesh.o: recastnavigation/Recast/Source/RecastMesh.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastMesh.o recastnavigation/Recast/Source/RecastMesh.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastMeshDetail.o: recastnavigation/Recast/Source/RecastMeshDetail.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastMeshDetail.o recastnavigation/Recast/Source/RecastMeshDetail.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastRasterization.o: recastnavigation/Recast/Source/RecastRasterization.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastRasterization.o recastnavigation/Recast/Source/RecastRasterization.cpp
-
-${OBJECTDIR}/recastnavigation/Recast/Source/RecastRegion.o: recastnavigation/Recast/Source/RecastRegion.cpp 
-	${MKDIR} -p ${OBJECTDIR}/recastnavigation/Recast/Source
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -fPIC  -MMD -MP -MF $@.d -o ${OBJECTDIR}/recastnavigation/Recast/Source/RecastRegion.o recastnavigation/Recast/Source/RecastRegion.cpp
 
 # Subprojects
 .build-subprojects:

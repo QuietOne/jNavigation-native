@@ -4,9 +4,26 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>recastnavigation/Recast/Include/Recast.h</itemPath>
-      <itemPath>recastnavigation/Recast/Include/RecastAlloc.h</itemPath>
-      <itemPath>recastnavigation/Recast/Include/RecastAssert.h</itemPath>
+      <itemPath>Recast/Include/DetourAlloc.h</itemPath>
+      <itemPath>Recast/Include/DetourAssert.h</itemPath>
+      <itemPath>Recast/Include/DetourCommon.h</itemPath>
+      <itemPath>Recast/Include/DetourCrowd.h</itemPath>
+      <itemPath>Recast/Include/DetourLocalBoundary.h</itemPath>
+      <itemPath>Recast/Include/DetourMath.h</itemPath>
+      <itemPath>Recast/Include/DetourNavMesh.h</itemPath>
+      <itemPath>Recast/Include/DetourNavMeshBuilder.h</itemPath>
+      <itemPath>Recast/Include/DetourNavMeshQuery.h</itemPath>
+      <itemPath>Recast/Include/DetourNode.h</itemPath>
+      <itemPath>Recast/Include/DetourObstacleAvoidance.h</itemPath>
+      <itemPath>Recast/Include/DetourPathCorridor.h</itemPath>
+      <itemPath>Recast/Include/DetourPathQueue.h</itemPath>
+      <itemPath>Recast/Include/DetourProximityGrid.h</itemPath>
+      <itemPath>Recast/Include/DetourStatus.h</itemPath>
+      <itemPath>Recast/Include/DetourTileCache.h</itemPath>
+      <itemPath>Recast/Include/DetourTileCacheBuilder.h</itemPath>
+      <itemPath>Recast/Include/Recast.h</itemPath>
+      <itemPath>Recast/Include/RecastAlloc.h</itemPath>
+      <itemPath>Recast/Include/RecastAssert.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,16 +32,30 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>recastnavigation/Recast/Source/Recast.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastAlloc.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastArea.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastContour.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastFilter.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastLayers.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastMesh.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastMeshDetail.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastRasterization.cpp</itemPath>
-      <itemPath>recastnavigation/Recast/Source/RecastRegion.cpp</itemPath>
+      <itemPath>Recast/Source/DetourAlloc.cpp</itemPath>
+      <itemPath>Recast/Source/DetourCommon.cpp</itemPath>
+      <itemPath>Recast/Source/DetourCrowd.cpp</itemPath>
+      <itemPath>Recast/Source/DetourLocalBoundary.cpp</itemPath>
+      <itemPath>Recast/Source/DetourNavMesh.cpp</itemPath>
+      <itemPath>Recast/Source/DetourNavMeshBuilder.cpp</itemPath>
+      <itemPath>Recast/Source/DetourNavMeshQuery.cpp</itemPath>
+      <itemPath>Recast/Source/DetourNode.cpp</itemPath>
+      <itemPath>Recast/Source/DetourObstacleAvoidance.cpp</itemPath>
+      <itemPath>Recast/Source/DetourPathCorridor.cpp</itemPath>
+      <itemPath>Recast/Source/DetourPathQueue.cpp</itemPath>
+      <itemPath>Recast/Source/DetourProximityGrid.cpp</itemPath>
+      <itemPath>Recast/Source/DetourTileCache.cpp</itemPath>
+      <itemPath>Recast/Source/DetourTileCacheBuilder.cpp</itemPath>
+      <itemPath>Recast/Source/Recast.cpp</itemPath>
+      <itemPath>Recast/Source/RecastAlloc.cpp</itemPath>
+      <itemPath>Recast/Source/RecastArea.cpp</itemPath>
+      <itemPath>Recast/Source/RecastContour.cpp</itemPath>
+      <itemPath>Recast/Source/RecastFilter.cpp</itemPath>
+      <itemPath>Recast/Source/RecastLayers.cpp</itemPath>
+      <itemPath>Recast/Source/RecastMesh.cpp</itemPath>
+      <itemPath>Recast/Source/RecastMeshDetail.cpp</itemPath>
+      <itemPath>Recast/Source/RecastRasterization.cpp</itemPath>
+      <itemPath>Recast/Source/RecastRegion.cpp</itemPath>
       <itemPath>Recast_wrap.cxx</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -57,7 +88,7 @@
           <incDir>
             <pElem>/usr/lib/jvm/java-7-oracle/include</pElem>
             <pElem>/usr/lib/jvm/java-7-oracle/include/linux</pElem>
-            <pElem>recastnavigation/Recast/Include</pElem>
+            <pElem>Recast/Include</pElem>
           </incDir>
           <commandLine>-shared</commandLine>
         </ccTool>
@@ -77,72 +108,140 @@
                             group="bin"/>
         </packFileList>
       </packaging>
+      <item path="Recast/Include/DetourAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourCommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourCrowd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourLocalBoundary.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourMath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNavMesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNavMeshBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNavMeshQuery.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourObstacleAvoidance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourPathCorridor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourPathQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourProximityGrid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourTileCache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourTileCacheBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/Recast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/RecastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/RecastAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourCommon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourCrowd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourLocalBoundary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNavMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNavMeshBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNavMeshQuery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourObstacleAvoidance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourPathCorridor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourPathQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourProximityGrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourTileCache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourTileCacheBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/Recast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastContour.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastLayers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastMeshDetail.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastRasterization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastRegion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Recast_wrap.cxx" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Include/Recast.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Include/RecastAlloc.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Include/RecastAssert.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/Recast.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastAlloc.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastArea.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastContour.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastFilter.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastLayers.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastMesh.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastMeshDetail.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastRasterization.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastRegion.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="2">
@@ -165,72 +264,140 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Recast/Include/DetourAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourCommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourCrowd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourLocalBoundary.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourMath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNavMesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNavMeshBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNavMeshQuery.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourNode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourObstacleAvoidance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourPathCorridor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourPathQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourProximityGrid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourStatus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourTileCache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/DetourTileCacheBuilder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Recast/Include/Recast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/RecastAlloc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Include/RecastAssert.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourCommon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourCrowd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourLocalBoundary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNavMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNavMeshBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNavMeshQuery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourNode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourObstacleAvoidance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourPathCorridor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourPathQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourProximityGrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourTileCache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/DetourTileCacheBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/Recast.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastAlloc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastContour.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastFilter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastLayers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastMesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastMeshDetail.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastRasterization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Recast/Source/RecastRegion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Recast_wrap.cxx" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Include/Recast.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Include/RecastAlloc.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Include/RecastAssert.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/Recast.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastAlloc.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastArea.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastContour.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastFilter.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastLayers.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastMesh.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastMeshDetail.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastRasterization.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
-      <item path="recastnavigation/Recast/Source/RecastRegion.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
       </item>
     </conf>
   </confs>
