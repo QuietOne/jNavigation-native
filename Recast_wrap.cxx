@@ -384,7 +384,7 @@ SWIGINTERN LongArray *LongArray_frompointer(long *t){
 extern "C" {
 #endif
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1DoubleArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1DoubleArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   DoubleArray *result = 0 ;
@@ -398,7 +398,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1DoubleArray(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1DoubleArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1DoubleArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   DoubleArray *arg1 = (DoubleArray *) 0 ;
   
   (void)jenv;
@@ -408,7 +408,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1DoubleArray(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jdouble JNICALL Java_RecastJNI_DoubleArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jdouble JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DoubleArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jdouble jresult = 0 ;
   DoubleArray *arg1 = (DoubleArray *) 0 ;
   int arg2 ;
@@ -425,7 +425,7 @@ SWIGEXPORT jdouble JNICALL Java_RecastJNI_DoubleArray_1getitem(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_DoubleArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jdouble jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DoubleArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jdouble jarg3) {
   DoubleArray *arg1 = (DoubleArray *) 0 ;
   int arg2 ;
   double arg3 ;
@@ -440,7 +440,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_DoubleArray_1setitem(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DoubleArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DoubleArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   DoubleArray *arg1 = (DoubleArray *) 0 ;
   double *result = 0 ;
@@ -455,7 +455,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DoubleArray_1cast(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DoubleArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DoubleArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   double *arg1 = (double *) 0 ;
   DoubleArray *result = 0 ;
@@ -469,7 +469,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DoubleArray_1frompointer(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1FloatArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1FloatArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   FloatArray *result = 0 ;
@@ -483,7 +483,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1FloatArray(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1FloatArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1FloatArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   FloatArray *arg1 = (FloatArray *) 0 ;
   
   (void)jenv;
@@ -493,7 +493,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1FloatArray(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_FloatArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_FloatArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   FloatArray *arg1 = (FloatArray *) 0 ;
   int arg2 ;
@@ -510,7 +510,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_FloatArray_1getitem(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_FloatArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_FloatArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3) {
   FloatArray *arg1 = (FloatArray *) 0 ;
   int arg2 ;
   float arg3 ;
@@ -525,7 +525,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_FloatArray_1setitem(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_FloatArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_FloatArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   FloatArray *arg1 = (FloatArray *) 0 ;
   float *result = 0 ;
@@ -540,7 +540,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_FloatArray_1cast(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_FloatArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_FloatArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   float *arg1 = (float *) 0 ;
   FloatArray *result = 0 ;
@@ -554,7 +554,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_FloatArray_1frompointer(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1IntArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1IntArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   IntArray *result = 0 ;
@@ -568,7 +568,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1IntArray(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1IntArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1IntArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   IntArray *arg1 = (IntArray *) 0 ;
   
   (void)jenv;
@@ -578,7 +578,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1IntArray(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_IntArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_IntArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   IntArray *arg1 = (IntArray *) 0 ;
   int arg2 ;
@@ -595,7 +595,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_IntArray_1getitem(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_IntArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_IntArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
   IntArray *arg1 = (IntArray *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -610,7 +610,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_IntArray_1setitem(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_IntArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_IntArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   IntArray *arg1 = (IntArray *) 0 ;
   int *result = 0 ;
@@ -625,7 +625,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_IntArray_1cast(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_IntArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_IntArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   int *arg1 = (int *) 0 ;
   IntArray *result = 0 ;
@@ -639,7 +639,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_IntArray_1frompointer(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1UCharArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1UCharArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   UCharArray *result = 0 ;
@@ -653,7 +653,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1UCharArray(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1UCharArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1UCharArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   UCharArray *arg1 = (UCharArray *) 0 ;
   
   (void)jenv;
@@ -663,7 +663,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1UCharArray(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_UCharArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UCharArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jshort jresult = 0 ;
   UCharArray *arg1 = (UCharArray *) 0 ;
   int arg2 ;
@@ -680,7 +680,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_UCharArray_1getitem(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_UCharArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jshort jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UCharArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jshort jarg3) {
   UCharArray *arg1 = (UCharArray *) 0 ;
   int arg2 ;
   unsigned char arg3 ;
@@ -695,7 +695,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_UCharArray_1setitem(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UCharArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UCharArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   UCharArray *arg1 = (UCharArray *) 0 ;
   unsigned char *result = 0 ;
@@ -710,7 +710,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UCharArray_1cast(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UCharArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UCharArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   unsigned char *arg1 = (unsigned char *) 0 ;
   UCharArray *result = 0 ;
@@ -724,7 +724,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UCharArray_1frompointer(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1UShortArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1UShortArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   UShortArray *result = 0 ;
@@ -738,7 +738,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1UShortArray(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1UShortArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1UShortArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   UShortArray *arg1 = (UShortArray *) 0 ;
   
   (void)jenv;
@@ -748,7 +748,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1UShortArray(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_UShortArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UShortArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   UShortArray *arg1 = (UShortArray *) 0 ;
   int arg2 ;
@@ -765,7 +765,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_UShortArray_1getitem(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_UShortArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UShortArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
   UShortArray *arg1 = (UShortArray *) 0 ;
   int arg2 ;
   unsigned short arg3 ;
@@ -780,7 +780,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_UShortArray_1setitem(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UShortArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UShortArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   UShortArray *arg1 = (UShortArray *) 0 ;
   unsigned short *result = 0 ;
@@ -795,7 +795,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UShortArray_1cast(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UShortArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UShortArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   unsigned short *arg1 = (unsigned short *) 0 ;
   UShortArray *result = 0 ;
@@ -809,7 +809,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UShortArray_1frompointer(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1UIntArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1UIntArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   UIntArray *result = 0 ;
@@ -823,7 +823,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1UIntArray(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1UIntArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1UIntArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   UIntArray *arg1 = (UIntArray *) 0 ;
   
   (void)jenv;
@@ -833,7 +833,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1UIntArray(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UIntArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UIntArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   UIntArray *arg1 = (UIntArray *) 0 ;
   int arg2 ;
@@ -850,7 +850,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UIntArray_1getitem(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_UIntArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UIntArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3) {
   UIntArray *arg1 = (UIntArray *) 0 ;
   int arg2 ;
   unsigned int arg3 ;
@@ -865,7 +865,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_UIntArray_1setitem(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UIntArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UIntArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   UIntArray *arg1 = (UIntArray *) 0 ;
   unsigned int *result = 0 ;
@@ -880,7 +880,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UIntArray_1cast(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_UIntArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_UIntArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   unsigned int *arg1 = (unsigned int *) 0 ;
   UIntArray *result = 0 ;
@@ -894,7 +894,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_UIntArray_1frompointer(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1LongArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1LongArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   LongArray *result = 0 ;
@@ -908,7 +908,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1LongArray(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1LongArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1LongArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   LongArray *arg1 = (LongArray *) 0 ;
   
   (void)jenv;
@@ -918,7 +918,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1LongArray(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_LongArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_LongArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   LongArray *arg1 = (LongArray *) 0 ;
   int arg2 ;
@@ -935,7 +935,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_LongArray_1getitem(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_LongArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_LongArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
   LongArray *arg1 = (LongArray *) 0 ;
   int arg2 ;
   long arg3 ;
@@ -950,7 +950,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_LongArray_1setitem(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_LongArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_LongArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   LongArray *arg1 = (LongArray *) 0 ;
   long *result = 0 ;
@@ -965,7 +965,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_LongArray_1cast(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_LongArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_LongArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   long *arg1 = (long *) 0 ;
   LongArray *result = 0 ;
@@ -979,7 +979,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_LongArray_1frompointer(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtAllocSetCustom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocSetCustom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   dtAllocFunc *arg1 = (dtAllocFunc *) 0 ;
   dtFreeFunc *arg2 = (dtFreeFunc *) 0 ;
   
@@ -991,7 +991,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtAllocSetCustom(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAlloc(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAlloc(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
   jlong jresult = 0 ;
   int arg1 ;
   dtAllocHint arg2 ;
@@ -1007,7 +1007,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAlloc(JNIEnv *jenv, jclass jcls, jint 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFree(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFree(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void *arg1 = (void *) 0 ;
   
   (void)jenv;
@@ -1017,7 +1017,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFree(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtSqrt(JNIEnv *jenv, jclass jcls, jfloat jarg1) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSqrt(JNIEnv *jenv, jclass jcls, jfloat jarg1) {
   jfloat jresult = 0 ;
   float arg1 ;
   float result;
@@ -1031,7 +1031,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtSqrt(JNIEnv *jenv, jclass jcls, jfloa
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVcross(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVcross(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -1045,7 +1045,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVcross(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVdot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1061,7 +1061,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdot(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVmad(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jfloat jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVmad(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jfloat jarg4) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -1077,7 +1077,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVmad(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVlerp(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jfloat jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVlerp(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jfloat jarg4) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -1093,7 +1093,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVlerp(JNIEnv *jenv, jclass jcls, jlong 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVadd(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVadd(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -1107,7 +1107,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVadd(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVsub(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVsub(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -1121,7 +1121,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVsub(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVscale(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jfloat jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVscale(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jfloat jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
@@ -1135,7 +1135,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVscale(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVmin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVmin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -1147,7 +1147,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVmin(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVmax(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVmax(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -1159,7 +1159,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVmax(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVset(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVset(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4) {
   float *arg1 = (float *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -1175,7 +1175,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVset(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVcopy(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVcopy(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -1187,7 +1187,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVcopy(JNIEnv *jenv, jclass jcls, jlong 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVlen(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVlen(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float result;
@@ -1201,7 +1201,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVlen(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVlenSqr(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVlenSqr(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float result;
@@ -1215,7 +1215,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVlenSqr(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdist(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVdist(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1231,7 +1231,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdist(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdistSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVdistSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1247,7 +1247,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdistSqr(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdist2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVdist2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1263,7 +1263,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdist2D(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdist2DSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVdist2DSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1279,7 +1279,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdist2DSqr(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtVnormalize(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVnormalize(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   float *arg1 = (float *) 0 ;
   
   (void)jenv;
@@ -1289,7 +1289,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtVnormalize(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtVequal(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVequal(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1305,7 +1305,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtVequal(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdot2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVdot2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1321,7 +1321,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVdot2D(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVperp2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtVperp2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1337,7 +1337,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtVperp2D(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTriArea2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTriArea2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1355,7 +1355,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTriArea2D(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtOverlapQuantBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOverlapQuantBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jboolean jresult = 0 ;
   unsigned short *arg1 ;
   unsigned short *arg2 ;
@@ -1379,7 +1379,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtOverlapQuantBounds(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtOverlapBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOverlapBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1399,7 +1399,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtOverlapBounds(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtClosestPtPointTriangle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtClosestPtPointTriangle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -1417,7 +1417,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtClosestPtPointTriangle(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtClosestHeightPointTriangle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtClosestHeightPointTriangle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1443,7 +1443,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtClosestHeightPointTriangle(JNIEnv *
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtIntersectSegmentPoly2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtIntersectSegmentPoly2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1487,7 +1487,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtIntersectSegmentPoly2D(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtIntersectSegSeg2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtIntersectSegSeg2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1519,7 +1519,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtIntersectSegSeg2D(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPointInPolygon(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPointInPolygon(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1537,7 +1537,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPointInPolygon(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtDistancePtPolyEdgesSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtDistancePtPolyEdgesSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1559,7 +1559,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtDistancePtPolyEdgesSqr(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtDistancePtSegSqr2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtDistancePtSegSqr2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -1583,7 +1583,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtDistancePtSegSqr2D(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCalcPolyCenter(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCalcPolyCenter(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
   float *arg1 = (float *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   int arg3 ;
@@ -1599,7 +1599,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCalcPolyCenter(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtOverlapPolyPoly2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOverlapPolyPoly2D(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jint jarg4) {
   jboolean jresult = 0 ;
   float *arg1 = (float *) 0 ;
   int arg2 ;
@@ -1619,7 +1619,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtOverlapPolyPoly2D(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNextPow2(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNextPow2(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   unsigned int arg1 ;
   unsigned int result;
@@ -1633,7 +1633,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNextPow2(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtIlog2(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtIlog2(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   unsigned int arg1 ;
   unsigned int result;
@@ -1647,7 +1647,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtIlog2(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtAlign4(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAlign4(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jint jresult = 0 ;
   int arg1 ;
   int result;
@@ -1661,7 +1661,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtAlign4(JNIEnv *jenv, jclass jcls, jint 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtOppositeTile(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOppositeTile(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jint jresult = 0 ;
   int arg1 ;
   int result;
@@ -1675,7 +1675,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtOppositeTile(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapByte(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSwapByte(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   unsigned char *arg1 = (unsigned char *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -1687,7 +1687,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapByte(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSwapEndian_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   unsigned short *arg1 = (unsigned short *) 0 ;
   
   (void)jenv;
@@ -1697,7 +1697,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_10(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSwapEndian_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   short *arg1 = (short *) 0 ;
   
   (void)jenv;
@@ -1707,7 +1707,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_11(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_12(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSwapEndian_1_1SWIG_12(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   unsigned int *arg1 = (unsigned int *) 0 ;
   
   (void)jenv;
@@ -1717,7 +1717,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_12(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_13(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSwapEndian_1_1SWIG_13(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   int *arg1 = (int *) 0 ;
   
   (void)jenv;
@@ -1727,7 +1727,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_13(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_14(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtSwapEndian_1_1SWIG_14(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   float *arg1 = (float *) 0 ;
   
   (void)jenv;
@@ -1737,7 +1737,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtSwapEndian_1_1SWIG_14(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtRandomPointInConvexPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jfloat jarg4, jfloat jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtRandomPointInConvexPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jfloat jarg4, jfloat jarg5, jlong jarg6) {
   float *arg1 = (float *) 0 ;
   int arg2 ;
   float *arg3 = (float *) 0 ;
@@ -1757,7 +1757,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtRandomPointInConvexPoly(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWDAGENT_1MAX_1NEIGHBOURS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWDAGENT_1MAX_1NEIGHBOURS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1769,7 +1769,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWDAGENT_1MAX_1NEIGHBOURS_1get(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWDAGENT_1MAX_1CORNERS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWDAGENT_1MAX_1CORNERS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1781,7 +1781,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWDAGENT_1MAX_1CORNERS_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1MAX_1OBSTAVOIDANCE_1PARAMS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1MAX_1OBSTAVOIDANCE_1PARAMS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1793,7 +1793,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1MAX_1OBSTAVOIDANCE_1PARAMS_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1MAX_1QUERY_1FILTER_1TYPE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1MAX_1QUERY_1FILTER_1TYPE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -1805,7 +1805,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1MAX_1QUERY_1FILTER_1TYPE_1get(
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdNeighbour_1idx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdNeighbour_1idx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCrowdNeighbour *arg1 = (dtCrowdNeighbour *) 0 ;
   int arg2 ;
   
@@ -1818,7 +1818,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdNeighbour_1idx_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdNeighbour_1idx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdNeighbour_1idx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCrowdNeighbour *arg1 = (dtCrowdNeighbour *) 0 ;
   int result;
@@ -1833,7 +1833,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdNeighbour_1idx_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdNeighbour_1dist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdNeighbour_1dist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdNeighbour *arg1 = (dtCrowdNeighbour *) 0 ;
   float arg2 ;
   
@@ -1846,7 +1846,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdNeighbour_1dist_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdNeighbour_1dist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdNeighbour_1dist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdNeighbour *arg1 = (dtCrowdNeighbour *) 0 ;
   float result;
@@ -1861,7 +1861,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdNeighbour_1dist_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdNeighbour(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCrowdNeighbour(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowdNeighbour *result = 0 ;
   
@@ -1873,7 +1873,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdNeighbour(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdNeighbour(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCrowdNeighbour(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCrowdNeighbour *arg1 = (dtCrowdNeighbour *) 0 ;
   
   (void)jenv;
@@ -1883,7 +1883,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdNeighbour(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1radius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1radius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -1896,7 +1896,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1radius_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1radius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1radius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -1911,7 +1911,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1radius_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -1924,7 +1924,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1height_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -1939,7 +1939,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1height_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxAcceleration_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1maxAcceleration_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -1952,7 +1952,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxAcceleration_1set(
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxAcceleration_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1maxAcceleration_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -1967,7 +1967,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxAcceleration_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxSpeed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1maxSpeed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -1980,7 +1980,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxSpeed_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxSpeed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1maxSpeed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -1995,7 +1995,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1maxSpeed_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1collisionQueryRange_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1collisionQueryRange_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -2008,7 +2008,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1collisionQueryRange_1
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1collisionQueryRange_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1collisionQueryRange_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -2023,7 +2023,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1collisionQueryRange
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1pathOptimizationRange_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1pathOptimizationRange_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -2036,7 +2036,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1pathOptimizationRange
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1pathOptimizationRange_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1pathOptimizationRange_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -2051,7 +2051,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1pathOptimizationRan
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1separationWeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1separationWeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float arg2 ;
   
@@ -2064,7 +2064,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1separationWeight_1set
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1separationWeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1separationWeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   float result;
@@ -2079,7 +2079,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentParams_1separationWeight_1g
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1updateFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1updateFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   unsigned char arg2 ;
   
@@ -2092,7 +2092,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1updateFlags_1set(JNIE
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgentParams_1updateFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1updateFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   unsigned char result;
@@ -2107,7 +2107,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgentParams_1updateFlags_1get(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1obstacleAvoidanceType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1obstacleAvoidanceType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   unsigned char arg2 ;
   
@@ -2120,7 +2120,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1obstacleAvoidanceType
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgentParams_1obstacleAvoidanceType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1obstacleAvoidanceType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   unsigned char result;
@@ -2135,7 +2135,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgentParams_1obstacleAvoidanceTy
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1queryFilterType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1queryFilterType_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   unsigned char arg2 ;
   
@@ -2148,7 +2148,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1queryFilterType_1set(
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgentParams_1queryFilterType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1queryFilterType_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   unsigned char result;
@@ -2163,7 +2163,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgentParams_1queryFilterType_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1userData_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1userData_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -2176,7 +2176,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentParams_1userData_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentParams_1userData_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentParams_1userData_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   void *result = 0 ;
@@ -2191,7 +2191,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentParams_1userData_1get(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgentParams(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCrowdAgentParams(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowdAgentParams *result = 0 ;
   
@@ -2203,7 +2203,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgentParams(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgentParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCrowdAgentParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCrowdAgentParams *arg1 = (dtCrowdAgentParams *) 0 ;
   
   (void)jenv;
@@ -2213,7 +2213,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgentParams(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWDAGENT_1TARGET_1NONE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWDAGENT_1TARGET_1NONE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   MoveRequestState result;
   
@@ -2225,7 +2225,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWDAGENT_1TARGET_1NONE_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1active_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1active_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   bool arg2 ;
   
@@ -2238,7 +2238,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1active_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgent_1active_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1active_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   bool result;
@@ -2253,7 +2253,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgent_1active_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1state_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1state_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   unsigned char arg2 ;
   
@@ -2266,7 +2266,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1state_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgent_1state_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1state_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   unsigned char result;
@@ -2281,7 +2281,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgent_1state_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1partial_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1partial_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   bool arg2 ;
   
@@ -2294,7 +2294,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1partial_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgent_1partial_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1partial_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   bool result;
@@ -2309,7 +2309,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgent_1partial_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1corridor_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1corridor_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPathCorridor *arg2 = (dtPathCorridor *) 0 ;
   
@@ -2323,7 +2323,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1corridor_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1corridor_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1corridor_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPathCorridor *result = 0 ;
@@ -2338,7 +2338,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1corridor_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1boundary_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1boundary_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtLocalBoundary *arg2 = (dtLocalBoundary *) 0 ;
   
@@ -2352,7 +2352,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1boundary_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1boundary_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1boundary_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtLocalBoundary *result = 0 ;
@@ -2367,7 +2367,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1boundary_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1topologyOptTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1topologyOptTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float arg2 ;
   
@@ -2380,7 +2380,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1topologyOptTime_1set(JNIEnv
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgent_1topologyOptTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1topologyOptTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float result;
@@ -2395,7 +2395,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgent_1topologyOptTime_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1neis_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1neis_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtCrowdNeighbour *arg2 ;
   
@@ -2414,7 +2414,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1neis_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1neis_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1neis_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtCrowdNeighbour *result = 0 ;
@@ -2429,7 +2429,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1neis_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1nneis_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1nneis_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   int arg2 ;
   
@@ -2442,7 +2442,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1nneis_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdAgent_1nneis_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1nneis_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   int result;
@@ -2457,7 +2457,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdAgent_1nneis_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1desiredSpeed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1desiredSpeed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float arg2 ;
   
@@ -2470,7 +2470,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1desiredSpeed_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgent_1desiredSpeed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1desiredSpeed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float result;
@@ -2485,7 +2485,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgent_1desiredSpeed_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1npos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1npos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2503,7 +2503,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1npos_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1npos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1npos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2518,7 +2518,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1npos_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1disp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1disp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2536,7 +2536,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1disp_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1disp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1disp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2551,7 +2551,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1disp_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1dvel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1dvel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2569,7 +2569,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1dvel_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1dvel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1dvel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2584,7 +2584,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1dvel_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1nvel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1nvel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2602,7 +2602,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1nvel_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1nvel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1nvel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2617,7 +2617,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1nvel_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1vel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1vel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2635,7 +2635,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1vel_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1vel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1vel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2650,7 +2650,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1vel_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1params_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1params_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtCrowdAgentParams *arg2 = (dtCrowdAgentParams *) 0 ;
   
@@ -2664,7 +2664,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1params_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1params_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1params_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtCrowdAgentParams *result = 0 ;
@@ -2679,7 +2679,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1params_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1cornerVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1cornerVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2697,7 +2697,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1cornerVerts_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1cornerVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1cornerVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2712,7 +2712,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1cornerVerts_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1cornerFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1cornerFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   unsigned char *arg2 ;
   
@@ -2730,7 +2730,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1cornerFlags_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1cornerFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1cornerFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   unsigned char *result = 0 ;
@@ -2745,7 +2745,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1cornerFlags_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1cornerPolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1cornerPolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPolyRef *arg2 ;
   
@@ -2763,7 +2763,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1cornerPolys_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1cornerPolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1cornerPolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPolyRef *result = 0 ;
@@ -2778,7 +2778,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1cornerPolys_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1ncorners_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1ncorners_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   int arg2 ;
   
@@ -2791,7 +2791,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1ncorners_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdAgent_1ncorners_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1ncorners_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   int result;
@@ -2806,7 +2806,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdAgent_1ncorners_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetState_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetState_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   unsigned char arg2 ;
   
@@ -2819,7 +2819,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetState_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgent_1targetState_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetState_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   unsigned char result;
@@ -2834,7 +2834,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtCrowdAgent_1targetState_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetRef_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetRef_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPolyRef arg2 ;
   
@@ -2847,7 +2847,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetRef_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1targetRef_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetRef_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPolyRef result;
@@ -2862,7 +2862,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1targetRef_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *arg2 ;
   
@@ -2880,7 +2880,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetPos_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1targetPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float *result = 0 ;
@@ -2895,7 +2895,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1targetPos_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetPathqRef_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetPathqRef_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPathQueueRef arg2 ;
   
@@ -2908,7 +2908,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetPathqRef_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1targetPathqRef_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetPathqRef_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   dtPathQueueRef result;
@@ -2923,7 +2923,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgent_1targetPathqRef_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplan_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetReplan_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   bool arg2 ;
   
@@ -2936,7 +2936,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplan_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplan_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetReplan_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   bool result;
@@ -2951,7 +2951,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplan_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplanTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetReplanTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float arg2 ;
   
@@ -2964,7 +2964,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplanTime_1set(JNIEn
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplanTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgent_1targetReplanTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   float result;
@@ -2979,7 +2979,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgent_1targetReplanTime_1get(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgent(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCrowdAgent(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowdAgent *result = 0 ;
   
@@ -2991,7 +2991,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgent(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgent(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCrowdAgent(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCrowdAgent *arg1 = (dtCrowdAgent *) 0 ;
   
   (void)jenv;
@@ -3001,7 +3001,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgent(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1active_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1active_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   bool arg2 ;
   
@@ -3014,7 +3014,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1active_1set(JNIEnv
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1active_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1active_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   bool result;
@@ -3029,7 +3029,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1active_1get(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1initPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1initPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float *arg2 ;
   
@@ -3047,7 +3047,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1initPos_1set(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1initPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1initPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float *result = 0 ;
@@ -3062,7 +3062,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1initPos_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1startPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1startPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float *arg2 ;
   
@@ -3080,7 +3080,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1startPos_1set(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1startPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1startPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float *result = 0 ;
@@ -3095,7 +3095,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1startPos_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1endPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1endPos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float *arg2 ;
   
@@ -3113,7 +3113,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1endPos_1set(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1endPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1endPos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float *result = 0 ;
@@ -3128,7 +3128,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1endPos_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1polyRef_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1polyRef_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   dtPolyRef arg2 ;
   
@@ -3141,7 +3141,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1polyRef_1set(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1polyRef_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1polyRef_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   dtPolyRef result;
@@ -3156,7 +3156,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1polyRef_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1t_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1t_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float arg2 ;
   
@@ -3169,7 +3169,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1t_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1t_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1t_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float result;
@@ -3184,7 +3184,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1t_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1tmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1tmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float arg2 ;
   
@@ -3197,7 +3197,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1tmax_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1tmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentAnimation_1tmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   float result;
@@ -3212,7 +3212,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtCrowdAgentAnimation_1tmax_1get(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgentAnimation(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCrowdAgentAnimation(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowdAgentAnimation *result = 0 ;
   
@@ -3224,7 +3224,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgentAnimation(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgentAnimation(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCrowdAgentAnimation(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCrowdAgentAnimation *arg1 = (dtCrowdAgentAnimation *) 0 ;
   
   (void)jenv;
@@ -3234,7 +3234,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgentAnimation(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1ANTICIPATE_1TURNS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1ANTICIPATE_1TURNS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   UpdateFlags result;
   
@@ -3246,7 +3246,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1ANTICIPATE_1TURNS_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1OBSTACLE_1AVOIDANCE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1OBSTACLE_1AVOIDANCE_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   UpdateFlags result;
   
@@ -3258,7 +3258,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1OBSTACLE_1AVOIDANCE_1get(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1SEPARATION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1SEPARATION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   UpdateFlags result;
   
@@ -3270,7 +3270,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1SEPARATION_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1OPTIMIZE_1VIS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1OPTIMIZE_1VIS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   UpdateFlags result;
   
@@ -3282,7 +3282,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1OPTIMIZE_1VIS_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1OPTIMIZE_1TOPO_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1CROWD_1OPTIMIZE_1TOPO_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   UpdateFlags result;
   
@@ -3294,7 +3294,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1CROWD_1OPTIMIZE_1TOPO_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1idx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1idx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   int arg2 ;
   
@@ -3307,7 +3307,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1idx_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1idx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1idx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   int result;
@@ -3322,7 +3322,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1idx_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optStart_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1optStart_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   float *arg2 ;
   
@@ -3340,7 +3340,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optStart_1set(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optStart_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1optStart_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   float *result = 0 ;
@@ -3355,7 +3355,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optStart_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optEnd_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1optEnd_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   float *arg2 ;
   
@@ -3373,7 +3373,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optEnd_1set(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optEnd_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1optEnd_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   float *result = 0 ;
@@ -3388,7 +3388,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1optEnd_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1vod_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1vod_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   dtObstacleAvoidanceDebugData *arg2 = (dtObstacleAvoidanceDebugData *) 0 ;
   
@@ -3402,7 +3402,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1vod_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1vod_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowdAgentDebugInfo_1vod_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   dtObstacleAvoidanceDebugData *result = 0 ;
@@ -3417,7 +3417,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowdAgentDebugInfo_1vod_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgentDebugInfo(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCrowdAgentDebugInfo(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowdAgentDebugInfo *result = 0 ;
   
@@ -3429,7 +3429,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowdAgentDebugInfo(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgentDebugInfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCrowdAgentDebugInfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCrowdAgentDebugInfo *arg1 = (dtCrowdAgentDebugInfo *) 0 ;
   
   (void)jenv;
@@ -3439,7 +3439,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowdAgentDebugInfo(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowd(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCrowd(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowd *result = 0 ;
   
@@ -3451,7 +3451,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCrowd(JNIEnv *jenv, jclass jcls) 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowd(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCrowd(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   
   (void)jenv;
@@ -3461,7 +3461,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCrowd(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3483,7 +3483,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1init(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1setObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1setObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
   dtObstacleAvoidanceParams *arg3 = (dtObstacleAvoidanceParams *) 0 ;
@@ -3499,7 +3499,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1setObstacleAvoidanceParams(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3516,7 +3516,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getObstacleAvoidanceParams(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3533,7 +3533,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getAgent(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getEditableAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getEditableAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3550,7 +3550,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getEditableAgent(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1getAgentCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getAgentCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int result;
@@ -3565,7 +3565,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1getAgentCount(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1addAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1addAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_) {
   jint jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -3585,7 +3585,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1addAgent(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1updateAgentParameters(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1updateAgentParameters(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
   dtCrowdAgentParams *arg3 = (dtCrowdAgentParams *) 0 ;
@@ -3601,7 +3601,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1updateAgentParameters(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1removeAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1removeAgent(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
   
@@ -3614,7 +3614,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1removeAgent(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1requestMoveTarget(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1requestMoveTarget(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jlong jarg4) {
   jboolean jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3635,7 +3635,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1requestMoveTarget(JNIEnv *je
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1requestMoveVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1requestMoveVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3) {
   jboolean jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3654,7 +3654,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1requestMoveVelocity(JNIEnv *
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1resetMoveTarget(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1resetMoveTarget(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jboolean jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3671,7 +3671,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCrowd_1resetMoveTarget(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1getActiveAgents(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getActiveAgents(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3) {
   jint jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   dtCrowdAgent **arg2 = (dtCrowdAgent **) 0 ;
@@ -3690,7 +3690,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1getActiveAgents(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jobject jarg3_) {
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   float arg2 ;
   dtCrowdAgentDebugInfo *arg3 = (dtCrowdAgentDebugInfo *) 0 ;
@@ -3706,7 +3706,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCrowd_1update(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3723,7 +3723,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getFilter(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getEditableFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getEditableFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int arg2 ;
@@ -3740,7 +3740,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getEditableFilter(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getQueryExtents(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getQueryExtents(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   float *result = 0 ;
@@ -3755,7 +3755,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getQueryExtents(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1getVelocitySampleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getVelocitySampleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   int result;
@@ -3770,7 +3770,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCrowd_1getVelocitySampleCount(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getGrid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getGrid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   dtProximityGrid *result = 0 ;
@@ -3785,7 +3785,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getGrid(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getPathQueue(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getPathQueue(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   dtPathQueue *result = 0 ;
@@ -3800,7 +3800,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getPathQueue(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getNavMeshQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCrowd_1getNavMeshQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   dtNavMeshQuery *result = 0 ;
@@ -3815,7 +3815,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCrowd_1getNavMeshQuery(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocCrowd(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocCrowd(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCrowd *result = 0 ;
   
@@ -3827,7 +3827,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocCrowd(JNIEnv *jenv, jclass jcls) 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeCrowd(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeCrowd(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtCrowd *arg1 = (dtCrowd *) 0 ;
   
   (void)jenv;
@@ -3838,7 +3838,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeCrowd(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtLocalBoundary(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtLocalBoundary(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtLocalBoundary *result = 0 ;
   
@@ -3850,7 +3850,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtLocalBoundary(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtLocalBoundary(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtLocalBoundary(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   
   (void)jenv;
@@ -3860,7 +3860,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtLocalBoundary(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLocalBoundary_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLocalBoundary_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   
   (void)jenv;
@@ -3871,7 +3871,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLocalBoundary_1reset(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLocalBoundary_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLocalBoundary_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_) {
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   dtPolyRef arg2 ;
   float *arg3 = (float *) 0 ;
@@ -3894,7 +3894,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLocalBoundary_1update(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtLocalBoundary_1isValid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLocalBoundary_1isValid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
   jboolean jresult = 0 ;
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   dtNavMeshQuery *arg2 = (dtNavMeshQuery *) 0 ;
@@ -3915,7 +3915,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtLocalBoundary_1isValid(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLocalBoundary_1getCenter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLocalBoundary_1getCenter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   float *result = 0 ;
@@ -3930,7 +3930,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLocalBoundary_1getCenter(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtLocalBoundary_1getSegmentCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLocalBoundary_1getSegmentCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   int result;
@@ -3945,7 +3945,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtLocalBoundary_1getSegmentCount(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLocalBoundary_1getSegment(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLocalBoundary_1getSegment(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtLocalBoundary *arg1 = (dtLocalBoundary *) 0 ;
   int arg2 ;
@@ -3962,7 +3962,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLocalBoundary_1getSegment(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1VERTS_1PER_1POLYGON_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1VERTS_1PER_1POLYGON_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3974,7 +3974,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1VERTS_1PER_1POLYGON_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NAVMESH_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3986,7 +3986,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1MAGIC_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NAVMESH_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3998,7 +3998,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1VERSION_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1STATE_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NAVMESH_1STATE_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -4010,7 +4010,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1STATE_1MAGIC_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1STATE_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NAVMESH_1STATE_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -4022,7 +4022,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NAVMESH_1STATE_1VERSION_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1EXT_1LINK_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1EXT_1LINK_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   unsigned short result;
   
@@ -4034,7 +4034,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1EXT_1LINK_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1NULL_1LINK_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NULL_1LINK_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -4046,7 +4046,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1NULL_1LINK_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1OFFMESH_1CON_1BIDIR_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1OFFMESH_1CON_1BIDIR_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -4058,7 +4058,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1OFFMESH_1CON_1BIDIR_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1AREAS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1MAX_1AREAS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -4070,7 +4070,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1AREAS_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILE_1FREE_1DATA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1TILE_1FREE_1DATA_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtTileFlags result;
   
@@ -4082,7 +4082,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILE_1FREE_1DATA_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1START_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1STRAIGHTPATH_1START_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtStraightPathFlags result;
   
@@ -4094,7 +4094,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1START_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1END_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1STRAIGHTPATH_1END_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtStraightPathFlags result;
   
@@ -4106,7 +4106,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1END_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1OFFMESH_1CONNECTION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1STRAIGHTPATH_1OFFMESH_1CONNECTION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtStraightPathFlags result;
   
@@ -4118,7 +4118,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1OFFMESH_1CONNECTION_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1AREA_1CROSSINGS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1STRAIGHTPATH_1AREA_1CROSSINGS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtStraightPathOptions result;
   
@@ -4130,7 +4130,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1AREA_1CROSSINGS_1get(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1ALL_1CROSSINGS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1STRAIGHTPATH_1ALL_1CROSSINGS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtStraightPathOptions result;
   
@@ -4142,7 +4142,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1STRAIGHTPATH_1ALL_1CROSSINGS_1get(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1POLYTYPE_1GROUND_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1POLYTYPE_1GROUND_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtPolyTypes result;
   
@@ -4154,7 +4154,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1POLYTYPE_1GROUND_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1POLYTYPE_1OFFMESH_1CONNECTION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1POLYTYPE_1OFFMESH_1CONNECTION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtPolyTypes result;
   
@@ -4166,7 +4166,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1POLYTYPE_1OFFMESH_1CONNECTION_1get(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1firstLink_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1firstLink_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned int arg2 ;
   
@@ -4179,7 +4179,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1firstLink_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPoly_1firstLink_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1firstLink_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned int result;
@@ -4194,7 +4194,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPoly_1firstLink_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned short *arg2 ;
   
@@ -4212,7 +4212,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1verts_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPoly_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned short *result = 0 ;
@@ -4227,7 +4227,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPoly_1verts_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1neis_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1neis_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned short *arg2 ;
   
@@ -4245,7 +4245,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1neis_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPoly_1neis_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1neis_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned short *result = 0 ;
@@ -4260,7 +4260,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPoly_1neis_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned short arg2 ;
   
@@ -4273,7 +4273,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1flags_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtPoly_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned short result;
@@ -4288,7 +4288,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtPoly_1flags_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char arg2 ;
   
@@ -4301,7 +4301,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1vertCount_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char result;
@@ -4316,7 +4316,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1vertCount_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1areaAndtype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1areaAndtype_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char arg2 ;
   
@@ -4329,7 +4329,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1areaAndtype_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1areaAndtype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1areaAndtype_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char result;
@@ -4344,7 +4344,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1areaAndtype_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1setArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1setArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char arg2 ;
   
@@ -4357,7 +4357,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1setArea(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1setType(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1setType(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char arg2 ;
   
@@ -4370,7 +4370,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPoly_1setType(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1getArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1getArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char result;
@@ -4385,7 +4385,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1getArea(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1getType(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPoly_1getType(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtPoly *arg1 = (dtPoly *) 0 ;
   unsigned char result;
@@ -4400,7 +4400,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPoly_1getType(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPoly(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtPoly(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtPoly *result = 0 ;
   
@@ -4412,7 +4412,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPoly(JNIEnv *jenv, jclass jcls) {
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPoly(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtPoly(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtPoly *arg1 = (dtPoly *) 0 ;
   
   (void)jenv;
@@ -4422,7 +4422,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPoly(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1vertBase_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1vertBase_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned int arg2 ;
   
@@ -4435,7 +4435,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1vertBase_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPolyDetail_1vertBase_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1vertBase_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned int result;
@@ -4450,7 +4450,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPolyDetail_1vertBase_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1triBase_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1triBase_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned int arg2 ;
   
@@ -4463,7 +4463,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1triBase_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPolyDetail_1triBase_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1triBase_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned int result;
@@ -4478,7 +4478,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPolyDetail_1triBase_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned char arg2 ;
   
@@ -4491,7 +4491,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1vertCount_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPolyDetail_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned char result;
@@ -4506,7 +4506,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPolyDetail_1vertCount_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1triCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1triCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned char arg2 ;
   
@@ -4519,7 +4519,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPolyDetail_1triCount_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPolyDetail_1triCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPolyDetail_1triCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   unsigned char result;
@@ -4534,7 +4534,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtPolyDetail_1triCount_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPolyDetail(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtPolyDetail(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtPolyDetail *result = 0 ;
   
@@ -4546,7 +4546,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPolyDetail(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPolyDetail(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtPolyDetail(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtPolyDetail *arg1 = (dtPolyDetail *) 0 ;
   
   (void)jenv;
@@ -4556,7 +4556,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPolyDetail(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1ref_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1ref_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtLink *arg1 = (dtLink *) 0 ;
   dtPolyRef arg2 ;
   
@@ -4569,7 +4569,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1ref_1set(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLink_1ref_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1ref_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtLink *arg1 = (dtLink *) 0 ;
   dtPolyRef result;
@@ -4584,7 +4584,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLink_1ref_1get(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned int arg2 ;
   
@@ -4597,7 +4597,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1next_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLink_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned int result;
@@ -4612,7 +4612,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtLink_1next_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1edge_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1edge_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char arg2 ;
   
@@ -4625,7 +4625,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1edge_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1edge_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1edge_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char result;
@@ -4640,7 +4640,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1edge_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1side_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1side_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char arg2 ;
   
@@ -4653,7 +4653,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1side_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1side_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1side_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char result;
@@ -4668,7 +4668,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1side_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char arg2 ;
   
@@ -4681,7 +4681,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1bmin_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char result;
@@ -4696,7 +4696,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1bmin_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char arg2 ;
   
@@ -4709,7 +4709,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtLink_1bmax_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtLink_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtLink *arg1 = (dtLink *) 0 ;
   unsigned char result;
@@ -4724,7 +4724,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtLink_1bmax_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtLink(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtLink(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtLink *result = 0 ;
   
@@ -4736,7 +4736,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtLink(JNIEnv *jenv, jclass jcls) {
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtLink(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtLink(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtLink *arg1 = (dtLink *) 0 ;
   
   (void)jenv;
@@ -4746,7 +4746,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtLink(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtBVNode_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBVNode_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   unsigned short *arg2 ;
   
@@ -4764,7 +4764,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtBVNode_1bmin_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBVNode_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBVNode_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   unsigned short *result = 0 ;
@@ -4779,7 +4779,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBVNode_1bmin_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtBVNode_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBVNode_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   unsigned short *arg2 ;
   
@@ -4797,7 +4797,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtBVNode_1bmax_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBVNode_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBVNode_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   unsigned short *result = 0 ;
@@ -4812,7 +4812,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBVNode_1bmax_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtBVNode_1i_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBVNode_1i_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   int arg2 ;
   
@@ -4825,7 +4825,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtBVNode_1i_1set(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtBVNode_1i_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBVNode_1i_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   int result;
@@ -4840,7 +4840,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtBVNode_1i_1get(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtBVNode(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtBVNode(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtBVNode *result = 0 ;
   
@@ -4852,7 +4852,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtBVNode(JNIEnv *jenv, jclass jcls)
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtBVNode(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtBVNode(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtBVNode *arg1 = (dtBVNode *) 0 ;
   
   (void)jenv;
@@ -4862,7 +4862,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtBVNode(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1pos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1pos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   float *arg2 ;
   
@@ -4880,7 +4880,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1pos_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtOffMeshConnection_1pos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1pos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   float *result = 0 ;
@@ -4895,7 +4895,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtOffMeshConnection_1pos_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1rad_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1rad_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   float arg2 ;
   
@@ -4908,7 +4908,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1rad_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtOffMeshConnection_1rad_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1rad_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   float result;
@@ -4923,7 +4923,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtOffMeshConnection_1rad_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1poly_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1poly_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned short arg2 ;
   
@@ -4936,7 +4936,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1poly_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtOffMeshConnection_1poly_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1poly_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned short result;
@@ -4951,7 +4951,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtOffMeshConnection_1poly_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned char arg2 ;
   
@@ -4964,7 +4964,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1flags_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtOffMeshConnection_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned char result;
@@ -4979,7 +4979,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtOffMeshConnection_1flags_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1side_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1side_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned char arg2 ;
   
@@ -4992,7 +4992,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1side_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtOffMeshConnection_1side_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1side_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned char result;
@@ -5007,7 +5007,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtOffMeshConnection_1side_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1userId_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1userId_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned int arg2 ;
   
@@ -5020,7 +5020,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtOffMeshConnection_1userId_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtOffMeshConnection_1userId_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtOffMeshConnection_1userId_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   unsigned int result;
@@ -5035,7 +5035,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtOffMeshConnection_1userId_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtOffMeshConnection(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtOffMeshConnection(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtOffMeshConnection *result = 0 ;
   
@@ -5047,7 +5047,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtOffMeshConnection(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtOffMeshConnection(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtOffMeshConnection(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtOffMeshConnection *arg1 = (dtOffMeshConnection *) 0 ;
   
   (void)jenv;
@@ -5057,7 +5057,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtOffMeshConnection(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1magic_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1magic_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5070,7 +5070,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1magic_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1magic_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1magic_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5085,7 +5085,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1magic_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1version_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1version_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5098,7 +5098,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1version_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1version_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1version_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5113,7 +5113,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1version_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1x_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1x_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5126,7 +5126,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1x_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1x_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1x_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5141,7 +5141,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1x_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1y_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1y_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5154,7 +5154,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1y_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1y_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1y_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5169,7 +5169,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1y_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1layer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1layer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5182,7 +5182,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1layer_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1layer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1layer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5197,7 +5197,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1layer_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1userId_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1userId_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   unsigned int arg2 ;
   
@@ -5210,7 +5210,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1userId_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshHeader_1userId_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1userId_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   unsigned int result;
@@ -5225,7 +5225,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshHeader_1userId_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1polyCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1polyCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5238,7 +5238,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1polyCount_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1polyCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1polyCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5253,7 +5253,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1polyCount_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5266,7 +5266,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1vertCount_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5281,7 +5281,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1vertCount_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1maxLinkCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1maxLinkCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5294,7 +5294,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1maxLinkCount_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1maxLinkCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1maxLinkCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5309,7 +5309,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1maxLinkCount_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1detailMeshCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1detailMeshCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5322,7 +5322,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1detailMeshCount_1set(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1detailMeshCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1detailMeshCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5337,7 +5337,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1detailMeshCount_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1detailVertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1detailVertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5350,7 +5350,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1detailVertCount_1set(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1detailVertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1detailVertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5365,7 +5365,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1detailVertCount_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1detailTriCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1detailTriCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5378,7 +5378,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1detailTriCount_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1detailTriCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1detailTriCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5393,7 +5393,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1detailTriCount_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bvNodeCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bvNodeCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5406,7 +5406,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bvNodeCount_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1bvNodeCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bvNodeCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5421,7 +5421,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1bvNodeCount_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1offMeshConCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1offMeshConCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5434,7 +5434,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1offMeshConCount_1set(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1offMeshConCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1offMeshConCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5449,7 +5449,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1offMeshConCount_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1offMeshBase_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1offMeshBase_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int arg2 ;
   
@@ -5462,7 +5462,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1offMeshBase_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1offMeshBase_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1offMeshBase_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   int result;
@@ -5477,7 +5477,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshHeader_1offMeshBase_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float arg2 ;
   
@@ -5490,7 +5490,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1walkableHeight_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float result;
@@ -5505,7 +5505,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1walkableHeight_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float arg2 ;
   
@@ -5518,7 +5518,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1walkableRadius_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float result;
@@ -5533,7 +5533,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1walkableRadius_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float arg2 ;
   
@@ -5546,7 +5546,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1walkableClimb_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float result;
@@ -5561,7 +5561,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1walkableClimb_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float *arg2 ;
   
@@ -5579,7 +5579,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bmin_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshHeader_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float *result = 0 ;
@@ -5594,7 +5594,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshHeader_1bmin_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float *arg2 ;
   
@@ -5612,7 +5612,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bmax_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshHeader_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float *result = 0 ;
@@ -5627,7 +5627,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshHeader_1bmax_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bvQuantFactor_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bvQuantFactor_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float arg2 ;
   
@@ -5640,7 +5640,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshHeader_1bvQuantFactor_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1bvQuantFactor_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshHeader_1bvQuantFactor_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   float result;
@@ -5655,7 +5655,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtMeshHeader_1bvQuantFactor_1get(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtMeshHeader(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtMeshHeader(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtMeshHeader *result = 0 ;
   
@@ -5667,7 +5667,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtMeshHeader(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtMeshHeader(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtMeshHeader(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtMeshHeader *arg1 = (dtMeshHeader *) 0 ;
   
   (void)jenv;
@@ -5677,7 +5677,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtMeshHeader(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1salt_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1salt_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned int arg2 ;
   
@@ -5690,7 +5690,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1salt_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1salt_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1salt_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned int result;
@@ -5705,7 +5705,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1salt_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1linksFreeList_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1linksFreeList_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned int arg2 ;
   
@@ -5718,7 +5718,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1linksFreeList_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1linksFreeList_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1linksFreeList_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned int result;
@@ -5733,7 +5733,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1linksFreeList_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1header_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1header_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtMeshHeader *arg2 = (dtMeshHeader *) 0 ;
   
@@ -5747,7 +5747,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1header_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1header_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1header_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtMeshHeader *result = 0 ;
@@ -5762,7 +5762,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1header_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtPoly *arg2 = (dtPoly *) 0 ;
   
@@ -5776,7 +5776,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1polys_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtPoly *result = 0 ;
@@ -5791,7 +5791,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1polys_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -5804,7 +5804,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1verts_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   float *result = 0 ;
@@ -5819,7 +5819,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1verts_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1links_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1links_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtLink *arg2 = (dtLink *) 0 ;
   
@@ -5833,7 +5833,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1links_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1links_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1links_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtLink *result = 0 ;
@@ -5848,7 +5848,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1links_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1detailMeshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1detailMeshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtPolyDetail *arg2 = (dtPolyDetail *) 0 ;
   
@@ -5862,7 +5862,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1detailMeshes_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1detailMeshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1detailMeshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtPolyDetail *result = 0 ;
@@ -5877,7 +5877,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1detailMeshes_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1detailVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1detailVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -5890,7 +5890,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1detailVerts_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1detailVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1detailVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   float *result = 0 ;
@@ -5905,7 +5905,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1detailVerts_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1detailTris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1detailTris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -5918,7 +5918,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1detailTris_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1detailTris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1detailTris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned char *result = 0 ;
@@ -5933,7 +5933,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1detailTris_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1bvTree_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1bvTree_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtBVNode *arg2 = (dtBVNode *) 0 ;
   
@@ -5947,7 +5947,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1bvTree_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1bvTree_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1bvTree_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtBVNode *result = 0 ;
@@ -5962,7 +5962,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1bvTree_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1offMeshCons_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1offMeshCons_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtOffMeshConnection *arg2 = (dtOffMeshConnection *) 0 ;
   
@@ -5976,7 +5976,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1offMeshCons_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1offMeshCons_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1offMeshCons_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtOffMeshConnection *result = 0 ;
@@ -5991,7 +5991,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1offMeshCons_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -6004,7 +6004,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1data_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   unsigned char *result = 0 ;
@@ -6019,7 +6019,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1data_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1dataSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1dataSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   int arg2 ;
   
@@ -6032,7 +6032,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1dataSize_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshTile_1dataSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1dataSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   int result;
@@ -6047,7 +6047,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshTile_1dataSize_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   int arg2 ;
   
@@ -6060,7 +6060,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1flags_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshTile_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   int result;
@@ -6075,7 +6075,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMeshTile_1flags_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtMeshTile *arg2 = (dtMeshTile *) 0 ;
   
@@ -6089,7 +6089,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtMeshTile_1next_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMeshTile_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   dtMeshTile *result = 0 ;
@@ -6104,7 +6104,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMeshTile_1next_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtMeshTile(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtMeshTile(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtMeshTile *result = 0 ;
   
@@ -6116,7 +6116,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtMeshTile(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtMeshTile(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtMeshTile(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtMeshTile *arg1 = (dtMeshTile *) 0 ;
   
   (void)jenv;
@@ -6126,7 +6126,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtMeshTile(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1orig_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1orig_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   float *arg2 ;
   
@@ -6144,7 +6144,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1orig_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshParams_1orig_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1orig_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   float *result = 0 ;
@@ -6159,7 +6159,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshParams_1orig_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1tileWidth_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1tileWidth_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   float arg2 ;
   
@@ -6172,7 +6172,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1tileWidth_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshParams_1tileWidth_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1tileWidth_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   float result;
@@ -6187,7 +6187,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshParams_1tileWidth_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1tileHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1tileHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   float arg2 ;
   
@@ -6200,7 +6200,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1tileHeight_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshParams_1tileHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1tileHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   float result;
@@ -6215,7 +6215,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshParams_1tileHeight_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1maxTiles_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1maxTiles_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   int arg2 ;
   
@@ -6228,7 +6228,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1maxTiles_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshParams_1maxTiles_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1maxTiles_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   int result;
@@ -6243,7 +6243,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshParams_1maxTiles_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1maxPolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1maxPolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   int arg2 ;
   
@@ -6256,7 +6256,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshParams_1maxPolys_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshParams_1maxPolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshParams_1maxPolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   int result;
@@ -6271,7 +6271,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshParams_1maxPolys_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMeshParams(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNavMeshParams(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNavMeshParams *result = 0 ;
   
@@ -6283,7 +6283,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMeshParams(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMeshParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNavMeshParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNavMeshParams *arg1 = (dtNavMeshParams *) 0 ;
   
   (void)jenv;
@@ -6293,7 +6293,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMeshParams(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMesh(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNavMesh(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNavMesh *result = 0 ;
   
@@ -6305,7 +6305,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMesh(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNavMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   
   (void)jenv;
@@ -6315,7 +6315,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMesh(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1init_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1init_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtNavMeshParams *arg2 = (dtNavMeshParams *) 0 ;
@@ -6333,7 +6333,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1init_1_1SWIG_10(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1init_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1init_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
@@ -6354,7 +6354,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1init_1_1SWIG_11(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtNavMeshParams *result = 0 ;
@@ -6369,7 +6369,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getParams(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1addTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1addTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
@@ -6394,7 +6394,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1addTile(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1removeTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1removeTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtTileRef arg2 ;
@@ -6415,7 +6415,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1removeTile(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMesh_1calcTileLoc(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1calcTileLoc(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   float *arg2 = (float *) 0 ;
   int *arg3 = (int *) 0 ;
@@ -6432,7 +6432,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMesh_1calcTileLoc(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   int arg2 ;
@@ -6453,7 +6453,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileAt(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMesh_1getTilesAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTilesAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   int arg2 ;
@@ -6476,7 +6476,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMesh_1getTilesAt(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileRefAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileRefAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   int arg2 ;
@@ -6497,7 +6497,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileRefAt(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtMeshTile *arg2 = (dtMeshTile *) 0 ;
@@ -6515,7 +6515,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileRef(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtTileRef arg2 ;
@@ -6532,7 +6532,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileByRef(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMesh_1getMaxTiles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getMaxTiles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   int result;
@@ -6547,7 +6547,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMesh_1getMaxTiles(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   int arg2 ;
@@ -6564,7 +6564,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTile(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileAndPolyByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileAndPolyByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6585,7 +6585,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getTileAndPolyByRef(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMesh_1getTileAndPolyByRefUnsafe(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileAndPolyByRefUnsafe(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
   dtMeshTile **arg3 = (dtMeshTile **) 0 ;
@@ -6602,7 +6602,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMesh_1getTileAndPolyByRefUnsafe(JNIE
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMesh_1isValidPolyRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1isValidPolyRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jboolean jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6619,7 +6619,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMesh_1isValidPolyRef(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getPolyRefBase(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getPolyRefBase(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtMeshTile *arg2 = (dtMeshTile *) 0 ;
@@ -6637,7 +6637,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getPolyRefBase(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getOffMeshConnectionPolyEndPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getOffMeshConnectionPolyEndPoints(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6660,7 +6660,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getOffMeshConnectionPolyEndPo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getOffMeshConnectionByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getOffMeshConnectionByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6677,7 +6677,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getOffMeshConnectionByRef(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1setPolyFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1setPolyFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6696,7 +6696,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1setPolyFlags(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getPolyFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getPolyFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6715,7 +6715,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getPolyFlags(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1setPolyArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jshort jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1setPolyArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jshort jarg3) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6734,7 +6734,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1setPolyArea(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getPolyArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getPolyArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6753,7 +6753,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1getPolyArea(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMesh_1getTileStateSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1getTileStateSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtMeshTile *arg2 = (dtMeshTile *) 0 ;
@@ -6771,7 +6771,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMesh_1getTileStateSize(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1storeTileState(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1storeTileState(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtMeshTile *arg2 = (dtMeshTile *) 0 ;
@@ -6793,7 +6793,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1storeTileState(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1restoreTileState(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1restoreTileState(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtMeshTile *arg2 = (dtMeshTile *) 0 ;
@@ -6815,7 +6815,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1restoreTileState(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1encodePolyId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1encodePolyId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   unsigned int arg2 ;
@@ -6836,7 +6836,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1encodePolyId(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMesh_1decodePolyId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1decodePolyId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
   unsigned int *arg3 = 0 ;
@@ -6867,7 +6867,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMesh_1decodePolyId(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1decodePolyIdSalt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1decodePolyIdSalt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6884,7 +6884,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1decodePolyIdSalt(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1decodePolyIdTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1decodePolyIdTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6901,7 +6901,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1decodePolyIdTile(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1decodePolyIdPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMesh_1decodePolyIdPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   dtPolyRef arg2 ;
@@ -6918,7 +6918,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMesh_1decodePolyIdPoly(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocNavMesh(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocNavMesh(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNavMesh *result = 0 ;
   
@@ -6930,7 +6930,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocNavMesh(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeNavMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeNavMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtNavMesh *arg1 = (dtNavMesh *) 0 ;
   
   (void)jenv;
@@ -6941,7 +6941,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeNavMesh(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -6954,7 +6954,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1verts_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *result = 0 ;
@@ -6969,7 +6969,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1verts_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1vertCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -6982,7 +6982,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1vertCount_1set(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1vertCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -6997,7 +6997,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1vertCount_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -7010,7 +7010,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polys_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *result = 0 ;
@@ -7025,7 +7025,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polys_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polyFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -7038,7 +7038,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyFlags_1set(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polyFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *result = 0 ;
@@ -7053,7 +7053,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyFlags_1get(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyAreas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polyAreas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -7066,7 +7066,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyAreas_1set(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyAreas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polyAreas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *result = 0 ;
@@ -7081,7 +7081,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyAreas_1get(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polyCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7094,7 +7094,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyCount_1set(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1polyCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7109,7 +7109,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1polyCount_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1nvp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1nvp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7122,7 +7122,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1nvp_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1nvp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1nvp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7137,7 +7137,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1nvp_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailMeshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailMeshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
   
@@ -7150,7 +7150,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailMeshes_1set(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailMeshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailMeshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned int *result = 0 ;
@@ -7165,7 +7165,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailMeshes_1get
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -7178,7 +7178,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVerts_1set(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *result = 0 ;
@@ -7193,7 +7193,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVerts_1get(
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVertsCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailVertsCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7206,7 +7206,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVertsCount_1
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVertsCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailVertsCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7221,7 +7221,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailVertsCount_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailTris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -7234,7 +7234,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTris_1set(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailTris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *result = 0 ;
@@ -7249,7 +7249,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTris_1get(J
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTriCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailTriCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7262,7 +7262,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTriCount_1se
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTriCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1detailTriCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7277,7 +7277,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1detailTriCount_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConVerts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -7290,7 +7290,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConVerts_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConVerts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *result = 0 ;
@@ -7305,7 +7305,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConVerts_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConRad_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConRad_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -7318,7 +7318,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConRad_1set
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConRad_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConRad_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *result = 0 ;
@@ -7333,7 +7333,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConRad_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConFlags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -7346,7 +7346,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConFlags_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConFlags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned short *result = 0 ;
@@ -7361,7 +7361,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConFlags_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConAreas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConAreas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -7374,7 +7374,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConAreas_1s
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConAreas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConAreas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *result = 0 ;
@@ -7389,7 +7389,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConAreas_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConDir_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConDir_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -7402,7 +7402,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConDir_1set
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConDir_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConDir_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *result = 0 ;
@@ -7417,7 +7417,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConDir_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConUserID_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConUserID_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
   
@@ -7430,7 +7430,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConUserID_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConUserID_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConUserID_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned int *result = 0 ;
@@ -7445,7 +7445,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConUserID_
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7458,7 +7458,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConCount_1s
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1offMeshConCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7473,7 +7473,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1offMeshConCount_1g
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1userId_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1userId_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned int arg2 ;
   
@@ -7486,7 +7486,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1userId_1set(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1userId_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1userId_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned int result;
@@ -7501,7 +7501,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1userId_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileX_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1tileX_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7514,7 +7514,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileX_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileX_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1tileX_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7529,7 +7529,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileX_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileY_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1tileY_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7542,7 +7542,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileY_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileY_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1tileY_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7557,7 +7557,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileY_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileLayer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1tileLayer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int arg2 ;
   
@@ -7570,7 +7570,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileLayer_1set(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileLayer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1tileLayer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   int result;
@@ -7585,7 +7585,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNavMeshCreateParams_1tileLayer_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *arg2 ;
   
@@ -7603,7 +7603,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmin_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *result = 0 ;
@@ -7618,7 +7618,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmin_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *arg2 ;
   
@@ -7636,7 +7636,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmax_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float *result = 0 ;
@@ -7651,7 +7651,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshCreateParams_1bmax_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float arg2 ;
   
@@ -7664,7 +7664,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableHeight_1se
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float result;
@@ -7679,7 +7679,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableHeight_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float arg2 ;
   
@@ -7692,7 +7692,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableRadius_1se
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float result;
@@ -7707,7 +7707,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableRadius_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float arg2 ;
   
@@ -7720,7 +7720,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableClimb_1set
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float result;
@@ -7735,7 +7735,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1walkableClimb_1g
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float arg2 ;
   
@@ -7748,7 +7748,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1cs_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float result;
@@ -7763,7 +7763,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1cs_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float arg2 ;
   
@@ -7776,7 +7776,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1ch_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   float result;
@@ -7791,7 +7791,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNavMeshCreateParams_1ch_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1buildBvTree_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1buildBvTree_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   bool arg2 ;
   
@@ -7804,7 +7804,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNavMeshCreateParams_1buildBvTree_1set(J
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshCreateParams_1buildBvTree_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshCreateParams_1buildBvTree_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   bool result;
@@ -7819,7 +7819,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshCreateParams_1buildBvTree_1g
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMeshCreateParams(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNavMeshCreateParams(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNavMeshCreateParams *result = 0 ;
   
@@ -7831,7 +7831,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMeshCreateParams(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMeshCreateParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNavMeshCreateParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   
   (void)jenv;
@@ -7841,7 +7841,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMeshCreateParams(JNIEnv *jen
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCreateNavMeshData(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCreateNavMeshData(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   jboolean jresult = 0 ;
   dtNavMeshCreateParams *arg1 = (dtNavMeshCreateParams *) 0 ;
   unsigned char **arg2 = (unsigned char **) 0 ;
@@ -7860,7 +7860,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtCreateNavMeshData(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshHeaderSwapEndian(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshHeaderSwapEndian(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jboolean jresult = 0 ;
   unsigned char *arg1 = (unsigned char *) 0 ;
   int arg2 ;
@@ -7876,7 +7876,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshHeaderSwapEndian(JNIEnv *jen
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshDataSwapEndian(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshDataSwapEndian(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jboolean jresult = 0 ;
   unsigned char *arg1 = (unsigned char *) 0 ;
   int arg2 ;
@@ -7892,7 +7892,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshDataSwapEndian(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtQueryFilter(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtQueryFilter(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtQueryFilter *result = 0 ;
   
@@ -7904,7 +7904,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtQueryFilter(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtQueryFilter_1passFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1passFilter(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   dtPolyRef arg2 ;
@@ -7927,7 +7927,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtQueryFilter_1passFilter(JNIEnv *jen
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtQueryFilter_1getCost(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_, jlong jarg7, jlong jarg8, jobject jarg8_, jlong jarg9, jobject jarg9_, jlong jarg10, jlong jarg11, jobject jarg11_, jlong jarg12, jobject jarg12_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1getCost(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jobject jarg6_, jlong jarg7, jlong jarg8, jobject jarg8_, jlong jarg9, jobject jarg9_, jlong jarg10, jlong jarg11, jobject jarg11_, jlong jarg12, jobject jarg12_) {
   jfloat jresult = 0 ;
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -7970,7 +7970,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtQueryFilter_1getCost(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtQueryFilter_1getAreaCost(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1getAreaCost(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   int arg2 ;
@@ -7987,7 +7987,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtQueryFilter_1getAreaCost(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtQueryFilter_1setAreaCost(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1setAreaCost(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3) {
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   int arg2 ;
   float arg3 ;
@@ -8002,7 +8002,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtQueryFilter_1setAreaCost(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtQueryFilter_1getIncludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1getIncludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   unsigned short result;
@@ -8017,7 +8017,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtQueryFilter_1getIncludeFlags(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtQueryFilter_1setIncludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1setIncludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   unsigned short arg2 ;
   
@@ -8030,7 +8030,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtQueryFilter_1setIncludeFlags(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtQueryFilter_1getExcludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1getExcludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   unsigned short result;
@@ -8045,7 +8045,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtQueryFilter_1getExcludeFlags(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtQueryFilter_1setExcludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtQueryFilter_1setExcludeFlags(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   unsigned short arg2 ;
   
@@ -8058,7 +8058,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtQueryFilter_1setExcludeFlags(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtQueryFilter(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtQueryFilter(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtQueryFilter *arg1 = (dtQueryFilter *) 0 ;
   
   (void)jenv;
@@ -8068,7 +8068,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtQueryFilter(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMeshQuery(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNavMeshQuery(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNavMeshQuery *result = 0 ;
   
@@ -8080,7 +8080,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNavMeshQuery(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMeshQuery(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNavMeshQuery(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   
   (void)jenv;
@@ -8090,7 +8090,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNavMeshQuery(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtNavMesh *arg2 = (dtNavMesh *) 0 ;
@@ -8110,7 +8110,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1init(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_, jlong jarg7, jlong jarg8, jint jarg9) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_, jlong jarg7, jlong jarg8, jint jarg9) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8142,7 +8142,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findPath(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findStraightPath_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10, jint jarg11) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findStraightPath_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10, jint jarg11) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8177,7 +8177,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findStraightPath_1_1SWIG
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findStraightPath_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findStraightPath_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8210,7 +8210,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findStraightPath_1_1SWIG
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1initSlicedFindPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1initSlicedFindPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8236,7 +8236,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1initSlicedFindPath(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1updateSlicedFindPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1updateSlicedFindPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   int arg2 ;
@@ -8255,7 +8255,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1updateSlicedFindPath(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1finalizeSlicedFindPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1finalizeSlicedFindPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef *arg2 = (dtPolyRef *) 0 ;
@@ -8276,7 +8276,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1finalizeSlicedFindPath(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1finalizeSlicedFindPathPartial(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1finalizeSlicedFindPathPartial(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef *arg2 = (dtPolyRef *) 0 ;
@@ -8301,7 +8301,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1finalizeSlicedFindPathPa
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findPolysAroundCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findPolysAroundCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8335,7 +8335,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findPolysAroundCircle(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findPolysAroundShape(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findPolysAroundShape(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8369,7 +8369,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findPolysAroundShape(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findNearestPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findNearestPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8395,7 +8395,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findNearestPoly(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1queryPolygons(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jlong jarg6, jint jarg7) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1queryPolygons(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jlong jarg6, jint jarg7) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -8423,7 +8423,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1queryPolygons(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findLocalNeighbourhood(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jint jarg9) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findLocalNeighbourhood(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jint jarg9) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8455,7 +8455,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findLocalNeighbourhood(J
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1moveAlongSurface(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jint jarg9) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1moveAlongSurface(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jint jarg9) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8487,7 +8487,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1moveAlongSurface(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1raycast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1raycast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jint jarg10) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8521,7 +8521,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1raycast(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findDistanceToWall(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findDistanceToWall(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8551,7 +8551,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findDistanceToWall(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getPolyWallSegments(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1getPolyWallSegments(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8579,7 +8579,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getPolyWallSegments(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findRandomPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findRandomPoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtQueryFilter *arg2 = (dtQueryFilter *) 0 ;
@@ -8603,7 +8603,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findRandomPoint(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findRandomPointAroundCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1findRandomPointAroundCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_, jlong jarg6, jlong jarg7, jlong jarg8) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8633,7 +8633,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1findRandomPointAroundCir
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1closestPointOnPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1closestPointOnPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8656,7 +8656,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1closestPointOnPoly(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1closestPointOnPolyBoundary(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1closestPointOnPolyBoundary(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8677,7 +8677,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1closestPointOnPolyBounda
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getPolyHeight(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1getPolyHeight(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8698,7 +8698,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getPolyHeight(JNIEnv *je
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshQuery_1isValidPolyRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1isValidPolyRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_) {
   jboolean jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8718,7 +8718,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshQuery_1isValidPolyRef(JNIEnv
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshQuery_1isInClosedList(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1isInClosedList(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jboolean jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtPolyRef arg2 ;
@@ -8735,7 +8735,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNavMeshQuery_1isInClosedList(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getNodePool(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1getNodePool(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtNodePool *result = 0 ;
@@ -8750,7 +8750,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getNodePool(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getAttachedNavMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNavMeshQuery_1getAttachedNavMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   dtNavMesh *result = 0 ;
@@ -8765,7 +8765,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNavMeshQuery_1getAttachedNavMesh(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocNavMeshQuery(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocNavMeshQuery(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNavMeshQuery *result = 0 ;
   
@@ -8777,7 +8777,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocNavMeshQuery(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeNavMeshQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeNavMeshQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtNavMeshQuery *arg1 = (dtNavMeshQuery *) 0 ;
   
   (void)jenv;
@@ -8788,7 +8788,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeNavMeshQuery(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NODE_1OPEN_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NODE_1OPEN_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtNodeFlags result;
   
@@ -8800,7 +8800,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NODE_1OPEN_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NODE_1CLOSED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NODE_1CLOSED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtNodeFlags result;
   
@@ -8812,7 +8812,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NODE_1CLOSED_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NULL_1IDX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1NULL_1IDX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtNodeIndex result;
   
@@ -8824,7 +8824,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1NULL_1IDX_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1pos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1pos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNode *arg1 = (dtNode *) 0 ;
   float *arg2 ;
   
@@ -8842,7 +8842,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1pos_1set(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1pos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1pos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNode *arg1 = (dtNode *) 0 ;
   float *result = 0 ;
@@ -8857,7 +8857,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1pos_1get(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1cost_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1cost_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNode *arg1 = (dtNode *) 0 ;
   float arg2 ;
   
@@ -8870,7 +8870,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1cost_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNode_1cost_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1cost_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNode *arg1 = (dtNode *) 0 ;
   float result;
@@ -8885,7 +8885,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNode_1cost_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1total_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1total_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtNode *arg1 = (dtNode *) 0 ;
   float arg2 ;
   
@@ -8898,7 +8898,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1total_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNode_1total_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1total_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtNode *arg1 = (dtNode *) 0 ;
   float result;
@@ -8913,7 +8913,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtNode_1total_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1pidx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1pidx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNode *arg1 = (dtNode *) 0 ;
   unsigned int arg2 ;
   
@@ -8926,7 +8926,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1pidx_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1pidx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1pidx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNode *arg1 = (dtNode *) 0 ;
   unsigned int result;
@@ -8941,7 +8941,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1pidx_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNode *arg1 = (dtNode *) 0 ;
   unsigned int arg2 ;
   
@@ -8954,7 +8954,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1flags_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNode *arg1 = (dtNode *) 0 ;
   unsigned int result;
@@ -8969,7 +8969,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1flags_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1id_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1id_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtNode *arg1 = (dtNode *) 0 ;
   dtPolyRef arg2 ;
   
@@ -8982,7 +8982,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNode_1id_1set(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1id_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNode_1id_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNode *arg1 = (dtNode *) 0 ;
   dtPolyRef result;
@@ -8997,7 +8997,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNode_1id_1get(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNode(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNode(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtNode *result = 0 ;
   
@@ -9009,7 +9009,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNode(JNIEnv *jenv, jclass jcls) {
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNode(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNode(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNode *arg1 = (dtNode *) 0 ;
   
   (void)jenv;
@@ -9019,7 +9019,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNode(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNodePool(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNodePool(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
   jlong jresult = 0 ;
   int arg1 ;
   int arg2 ;
@@ -9035,7 +9035,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNodePool(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNodePool(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNodePool(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   
   (void)jenv;
@@ -9045,7 +9045,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNodePool(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNodePool_1clear(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1clear(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   
   (void)jenv;
@@ -9056,7 +9056,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNodePool_1clear(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1getNode(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getNode(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   dtPolyRef arg2 ;
@@ -9073,7 +9073,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1getNode(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1findNode(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1findNode(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   dtPolyRef arg2 ;
@@ -9090,7 +9090,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1findNode(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1getNodeIdx(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getNodeIdx(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jlong jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   dtNode *arg2 = (dtNode *) 0 ;
@@ -9108,7 +9108,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1getNodeIdx(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1getNodeAtIdx_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getNodeAtIdx_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   unsigned int arg2 ;
@@ -9125,7 +9125,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodePool_1getNodeAtIdx_1_1SWIG_10(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getMemUsed(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getMemUsed(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   int result;
@@ -9140,7 +9140,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getMemUsed(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getMaxNodes(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getMaxNodes(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   int result;
@@ -9155,7 +9155,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getMaxNodes(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getHashSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getHashSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   int result;
@@ -9170,7 +9170,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getHashSize(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getFirst(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getFirst(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   int arg2 ;
@@ -9187,7 +9187,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getFirst(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getNext(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodePool_1getNext(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   dtNodePool *arg1 = (dtNodePool *) 0 ;
   int arg2 ;
@@ -9204,7 +9204,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodePool_1getNext(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNodeQueue(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtNodeQueue(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   dtNodeQueue *result = 0 ;
@@ -9218,7 +9218,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtNodeQueue(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNodeQueue(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtNodeQueue(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   
   (void)jenv;
@@ -9228,7 +9228,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtNodeQueue(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNodeQueue_1clear(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1clear(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   
   (void)jenv;
@@ -9239,7 +9239,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNodeQueue_1clear(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodeQueue_1top(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1top(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   dtNode *result = 0 ;
@@ -9254,7 +9254,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodeQueue_1top(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodeQueue_1pop(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1pop(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   dtNode *result = 0 ;
@@ -9269,7 +9269,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtNodeQueue_1pop(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNodeQueue_1push(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1push(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   dtNode *arg2 = (dtNode *) 0 ;
   
@@ -9283,7 +9283,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNodeQueue_1push(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtNodeQueue_1modify(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1modify(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   dtNode *arg2 = (dtNode *) 0 ;
   
@@ -9297,7 +9297,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtNodeQueue_1modify(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNodeQueue_1empty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1empty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   bool result;
@@ -9312,7 +9312,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtNodeQueue_1empty(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodeQueue_1getMemUsed(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1getMemUsed(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   int result;
@@ -9327,7 +9327,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodeQueue_1getMemUsed(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodeQueue_1getCapacity(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtNodeQueue_1getCapacity(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtNodeQueue *arg1 = (dtNodeQueue *) 0 ;
   int result;
@@ -9342,7 +9342,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtNodeQueue_1getCapacity(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1p_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1p_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *arg2 ;
   
@@ -9360,7 +9360,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1p_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1p_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1p_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *result = 0 ;
@@ -9375,7 +9375,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1p_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1vel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1vel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *arg2 ;
   
@@ -9393,7 +9393,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1vel_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1vel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1vel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *result = 0 ;
@@ -9408,7 +9408,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1vel_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1dvel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1dvel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *arg2 ;
   
@@ -9426,7 +9426,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1dvel_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1dvel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1dvel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *result = 0 ;
@@ -9441,7 +9441,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1dvel_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1rad_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1rad_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float arg2 ;
   
@@ -9454,7 +9454,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1rad_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleCircle_1rad_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1rad_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float result;
@@ -9469,7 +9469,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleCircle_1rad_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1dp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1dp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *arg2 ;
   
@@ -9487,7 +9487,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1dp_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1dp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1dp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *result = 0 ;
@@ -9502,7 +9502,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1dp_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1np_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1np_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *arg2 ;
   
@@ -9520,7 +9520,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleCircle_1np_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1np_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleCircle_1np_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   float *result = 0 ;
@@ -9535,7 +9535,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleCircle_1np_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleCircle(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtObstacleCircle(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleCircle *result = 0 ;
   
@@ -9547,7 +9547,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleCircle(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleCircle(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtObstacleCircle(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtObstacleCircle *arg1 = (dtObstacleCircle *) 0 ;
   
   (void)jenv;
@@ -9557,7 +9557,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleCircle(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleSegment_1p_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleSegment_1p_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   float *arg2 ;
   
@@ -9575,7 +9575,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleSegment_1p_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleSegment_1p_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleSegment_1p_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   float *result = 0 ;
@@ -9590,7 +9590,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleSegment_1p_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleSegment_1q_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleSegment_1q_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   float *arg2 ;
   
@@ -9608,7 +9608,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleSegment_1q_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleSegment_1q_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleSegment_1q_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   float *result = 0 ;
@@ -9623,7 +9623,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleSegment_1q_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleSegment_1touch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleSegment_1touch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   bool arg2 ;
   
@@ -9636,7 +9636,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleSegment_1touch_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtObstacleSegment_1touch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleSegment_1touch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   bool result;
@@ -9651,7 +9651,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtObstacleSegment_1touch_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleSegment(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtObstacleSegment(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleSegment *result = 0 ;
   
@@ -9663,7 +9663,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleSegment(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleSegment(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtObstacleSegment(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtObstacleSegment *arg1 = (dtObstacleSegment *) 0 ;
   
   (void)jenv;
@@ -9673,7 +9673,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleSegment(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceDebugData *result = 0 ;
   
@@ -9685,7 +9685,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleAvoidanceDebugData(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   
   (void)jenv;
@@ -9695,7 +9695,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleAvoidanceDebugData(JNIE
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jboolean jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9712,7 +9712,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1init(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   
   (void)jenv;
@@ -9723,7 +9723,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1reset(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1addSample(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1addSample(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8) {
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
@@ -9748,7 +9748,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1addSample(J
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1normalizeSamples(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1normalizeSamples(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   
   (void)jenv;
@@ -9759,7 +9759,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1normalizeSa
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int result;
@@ -9774,7 +9774,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9791,7 +9791,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleV
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9808,7 +9808,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSample
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSamplePenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSamplePenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9825,7 +9825,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSample
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleDesiredVelocityPenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleDesiredVelocityPenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9842,7 +9842,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSample
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCurrentVelocityPenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCurrentVelocityPenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9859,7 +9859,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSample
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSamplePreferredSidePenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSamplePreferredSidePenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9876,7 +9876,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSample
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCollisionTimePenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceDebugData_1getSampleCollisionTimePenalty(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   int arg2 ;
@@ -9893,7 +9893,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceDebugData_1getSample
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceDebugData *result = 0 ;
   
@@ -9905,7 +9905,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocObstacleAvoidanceDebugData(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeObstacleAvoidanceDebugData(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtObstacleAvoidanceDebugData *arg1 = (dtObstacleAvoidanceDebugData *) 0 ;
   
   (void)jenv;
@@ -9916,7 +9916,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeObstacleAvoidanceDebugData(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1PATTERN_1DIVS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1MAX_1PATTERN_1DIVS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -9928,7 +9928,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1PATTERN_1DIVS_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1PATTERN_1RINGS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1MAX_1PATTERN_1RINGS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -9940,7 +9940,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1PATTERN_1RINGS_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1velBias_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1velBias_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float arg2 ;
   
@@ -9953,7 +9953,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1velBias_1set(J
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1velBias_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1velBias_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float result;
@@ -9968,7 +9968,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1velBias_1get
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightDesVel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightDesVel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float arg2 ;
   
@@ -9981,7 +9981,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightDesVel_1
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightDesVel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightDesVel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float result;
@@ -9996,7 +9996,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightDesVel
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightCurVel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightCurVel_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float arg2 ;
   
@@ -10009,7 +10009,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightCurVel_1
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightCurVel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightCurVel_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float result;
@@ -10024,7 +10024,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightCurVel
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightSide_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightSide_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float arg2 ;
   
@@ -10037,7 +10037,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightSide_1se
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightSide_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightSide_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float result;
@@ -10052,7 +10052,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightSide_1
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightToi_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightToi_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float arg2 ;
   
@@ -10065,7 +10065,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightToi_1set
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightToi_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1weightToi_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float result;
@@ -10080,7 +10080,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1weightToi_1g
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1horizTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1horizTime_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float arg2 ;
   
@@ -10093,7 +10093,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1horizTime_1set
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1horizTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1horizTime_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   float result;
@@ -10108,7 +10108,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1horizTime_1g
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1gridSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1gridSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char arg2 ;
   
@@ -10121,7 +10121,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1gridSize_1set(
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1gridSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1gridSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char result;
@@ -10136,7 +10136,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1gridSize_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDivs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDivs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char arg2 ;
   
@@ -10149,7 +10149,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDivs_1
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDivs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDivs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char result;
@@ -10164,7 +10164,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDivs
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveRings_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1adaptiveRings_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char arg2 ;
   
@@ -10177,7 +10177,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveRings_
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveRings_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1adaptiveRings_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char result;
@@ -10192,7 +10192,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveRing
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDepth_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDepth_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char arg2 ;
   
@@ -10205,7 +10205,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDepth_
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDepth_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDepth_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   unsigned char result;
@@ -10220,7 +10220,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtObstacleAvoidanceParams_1adaptiveDept
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceParams *result = 0 ;
   
@@ -10232,7 +10232,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleAvoidanceParams(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtObstacleAvoidanceParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtObstacleAvoidanceParams *arg1 = (dtObstacleAvoidanceParams *) 0 ;
   
   (void)jenv;
@@ -10242,7 +10242,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleAvoidanceParams(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceQuery *result = 0 ;
   
@@ -10254,7 +10254,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtObstacleAvoidanceQuery(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   
   (void)jenv;
@@ -10264,7 +10264,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtObstacleAvoidanceQuery(JNIEnv *
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
   jboolean jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   int arg2 ;
@@ -10283,7 +10283,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1init(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   
   (void)jenv;
@@ -10294,7 +10294,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1reset(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1addCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1addCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jlong jarg4, jlong jarg5) {
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
@@ -10313,7 +10313,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1addCircle(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1addSegment(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1addSegment(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -10328,7 +10328,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1addSegment(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityGrid_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_, jlong jarg9, jobject jarg9_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityGrid_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_, jlong jarg9, jobject jarg9_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10361,7 +10361,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityG
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityGrid_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityGrid_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10391,7 +10391,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityG
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityAdaptive_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_, jlong jarg9, jobject jarg9_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityAdaptive_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_, jlong jarg9, jobject jarg9_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10424,7 +10424,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityA
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityAdaptive_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityAdaptive_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jobject jarg8_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10454,7 +10454,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1sampleVelocityA
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleCircleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleCircleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   int result;
@@ -10469,7 +10469,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleCirc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleCircle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   int arg2 ;
@@ -10486,7 +10486,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleCir
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleSegmentCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleSegmentCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   int result;
@@ -10501,7 +10501,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleSegm
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleSegment(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleSegment(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   int arg2 ;
@@ -10518,7 +10518,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtObstacleAvoidanceQuery_1getObstacleSeg
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtObstacleAvoidanceQuery *result = 0 ;
   
@@ -10530,7 +10530,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocObstacleAvoidanceQuery(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeObstacleAvoidanceQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtObstacleAvoidanceQuery *arg1 = (dtObstacleAvoidanceQuery *) 0 ;
   
   (void)jenv;
@@ -10541,7 +10541,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeObstacleAvoidanceQuery(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPathCorridor(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtPathCorridor(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtPathCorridor *result = 0 ;
   
@@ -10553,7 +10553,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPathCorridor(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPathCorridor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtPathCorridor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   
   (void)jenv;
@@ -10563,7 +10563,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPathCorridor(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   int arg2 ;
@@ -10580,7 +10580,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1init(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPathCorridor_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef arg2 ;
   float *arg3 = (float *) 0 ;
@@ -10595,7 +10595,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPathCorridor_1reset(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtPathCorridor_1findCorners(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6, jobject jarg6_, jlong jarg7, jobject jarg7_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1findCorners(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6, jobject jarg6_, jlong jarg7, jobject jarg7_) {
   jint jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10624,7 +10624,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtPathCorridor_1findCorners(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPathCorridor_1optimizePathVisibility(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1optimizePathVisibility(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
@@ -10645,7 +10645,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPathCorridor_1optimizePathVisibility(JN
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1optimizePathTopology(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1optimizePathTopology(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtNavMeshQuery *arg2 = (dtNavMeshQuery *) 0 ;
@@ -10666,7 +10666,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1optimizePathTopology(
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1moveOverOffmeshConnection(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1moveOverOffmeshConnection(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef arg2 ;
@@ -10692,7 +10692,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1moveOverOffmeshConnec
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1fixPathStart(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1fixPathStart(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef arg2 ;
@@ -10711,7 +10711,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1fixPathStart(JNIEnv *
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1trimInvalidPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1trimInvalidPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef arg2 ;
@@ -10736,7 +10736,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1trimInvalidPath(JNIEn
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1isValid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1isValid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   int arg2 ;
@@ -10759,7 +10759,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1isValid(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1movePosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1movePosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10782,7 +10782,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1movePosition(JNIEnv *
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1moveTargetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1moveTargetPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -10805,7 +10805,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathCorridor_1moveTargetPosition(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPathCorridor_1setCorridor(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1setCorridor(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4) {
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *arg2 = (float *) 0 ;
   dtPolyRef *arg3 = (dtPolyRef *) 0 ;
@@ -10822,7 +10822,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPathCorridor_1setCorridor(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1getPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *result = 0 ;
@@ -10837,7 +10837,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getPos(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getTarget(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1getTarget(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   float *result = 0 ;
@@ -10852,7 +10852,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getTarget(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getFirstPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1getFirstPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef result;
@@ -10867,7 +10867,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getFirstPoly(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getLastPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1getLastPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef result;
@@ -10882,7 +10882,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getLastPoly(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1getPath(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   dtPolyRef *result = 0 ;
@@ -10897,7 +10897,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathCorridor_1getPath(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtPathCorridor_1getPathCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathCorridor_1getPathCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtPathCorridor *arg1 = (dtPathCorridor *) 0 ;
   int result;
@@ -10912,7 +10912,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtPathCorridor_1getPathCount(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMergeCorridorStartMoved(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMergeCorridorStartMoved(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   dtPolyRef *arg1 = (dtPolyRef *) 0 ;
   int arg2 ;
@@ -10934,7 +10934,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMergeCorridorStartMoved(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMergeCorridorEndMoved(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMergeCorridorEndMoved(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   dtPolyRef *arg1 = (dtPolyRef *) 0 ;
   int arg2 ;
@@ -10956,7 +10956,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMergeCorridorEndMoved(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtMergeCorridorStartShortcut(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMergeCorridorStartShortcut(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   dtPolyRef *arg1 = (dtPolyRef *) 0 ;
   int arg2 ;
@@ -10978,7 +10978,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtMergeCorridorStartShortcut(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1PATHQ_1INVALID_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1PATHQ_1INVALID_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -10990,7 +10990,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1PATHQ_1INVALID_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPathQueue(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtPathQueue(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtPathQueue *result = 0 ;
   
@@ -11002,7 +11002,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtPathQueue(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPathQueue(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtPathQueue(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   
   (void)jenv;
@@ -11012,7 +11012,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtPathQueue(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathQueue_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathQueue_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   int arg2 ;
@@ -11034,7 +11034,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtPathQueue_1init(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtPathQueue_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathQueue_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   int arg2 ;
   
@@ -11047,7 +11047,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtPathQueue_1update(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1request(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathQueue_1request(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jobject jarg6_) {
   jlong jresult = 0 ;
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   dtPolyRef arg2 ;
@@ -11073,7 +11073,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1request(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1getRequestStatus(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathQueue_1getRequestStatus(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   dtPathQueueRef arg2 ;
@@ -11090,7 +11090,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1getRequestStatus(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1getPathResult(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathQueue_1getPathResult(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   jlong jresult = 0 ;
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   dtPathQueueRef arg2 ;
@@ -11113,7 +11113,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1getPathResult(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1getNavQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtPathQueue_1getNavQuery(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtPathQueue *arg1 = (dtPathQueue *) 0 ;
   dtNavMeshQuery *result = 0 ;
@@ -11128,7 +11128,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtPathQueue_1getNavQuery(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtProximityGrid(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtProximityGrid(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtProximityGrid *result = 0 ;
   
@@ -11140,7 +11140,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtProximityGrid(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtProximityGrid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtProximityGrid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   
   (void)jenv;
@@ -11150,7 +11150,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtProximityGrid(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtProximityGrid_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3) {
   jboolean jresult = 0 ;
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   int arg2 ;
@@ -11169,7 +11169,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtProximityGrid_1init(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtProximityGrid_1clear(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1clear(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   
   (void)jenv;
@@ -11180,7 +11180,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtProximityGrid_1clear(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtProximityGrid_1addItem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1addItem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6) {
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   unsigned short arg2 ;
   float arg3 ;
@@ -11201,7 +11201,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtProximityGrid_1addItem(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtProximityGrid_1queryItems(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jlong jarg6, jint jarg7) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1queryItems(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5, jlong jarg6, jint jarg7) {
   jint jresult = 0 ;
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   float arg2 ;
@@ -11228,7 +11228,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtProximityGrid_1queryItems(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtProximityGrid_1getItemCountAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1getItemCountAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
   jint jresult = 0 ;
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   int arg2 ;
@@ -11247,7 +11247,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtProximityGrid_1getItemCountAt(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtProximityGrid_1getBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1getBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   int *result = 0 ;
@@ -11262,7 +11262,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtProximityGrid_1getBounds(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtProximityGrid_1getCellSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtProximityGrid_1getCellSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   float result;
@@ -11277,7 +11277,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtProximityGrid_1getCellSize(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocProximityGrid(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocProximityGrid(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtProximityGrid *result = 0 ;
   
@@ -11289,7 +11289,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocProximityGrid(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeProximityGrid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeProximityGrid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtProximityGrid *arg1 = (dtProximityGrid *) 0 ;
   
   (void)jenv;
@@ -11300,7 +11300,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeProximityGrid(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1FAILURE_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1FAILURE_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11312,7 +11312,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1FAILURE_1get(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1SUCCESS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1SUCCESS_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11324,7 +11324,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1SUCCESS_1get(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1IN_1PROGRESS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1IN_1PROGRESS_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11336,7 +11336,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1IN_1PROGRESS_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1STATUS_1DETAIL_1MASK_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1STATUS_1DETAIL_1MASK_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11348,7 +11348,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1STATUS_1DETAIL_1MASK_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1WRONG_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1WRONG_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11360,7 +11360,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1WRONG_1MAGIC_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1WRONG_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1WRONG_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11372,7 +11372,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1WRONG_1VERSION_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1OUT_1OF_1MEMORY_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1OUT_1OF_1MEMORY_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11384,7 +11384,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1OUT_1OF_1MEMORY_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1INVALID_1PARAM_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1INVALID_1PARAM_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11396,7 +11396,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1INVALID_1PARAM_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1BUFFER_1TOO_1SMALL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1BUFFER_1TOO_1SMALL_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11408,7 +11408,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1BUFFER_1TOO_1SMALL_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1OUT_1OF_1NODES_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1OUT_1OF_1NODES_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11420,7 +11420,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1OUT_1OF_1NODES_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1PARTIAL_1RESULT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1PARTIAL_1RESULT_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   unsigned int result;
   
@@ -11432,7 +11432,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_DT_1PARTIAL_1RESULT_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusSucceed(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtStatusSucceed(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jboolean jresult = 0 ;
   dtStatus arg1 ;
   bool result;
@@ -11446,7 +11446,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusSucceed(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusFailed(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtStatusFailed(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jboolean jresult = 0 ;
   dtStatus arg1 ;
   bool result;
@@ -11460,7 +11460,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusFailed(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusInProgress(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtStatusInProgress(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jboolean jresult = 0 ;
   dtStatus arg1 ;
   bool result;
@@ -11474,7 +11474,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusInProgress(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusDetail(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtStatusDetail(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jboolean jresult = 0 ;
   dtStatus arg1 ;
   unsigned int arg2 ;
@@ -11490,7 +11490,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtStatusDetail(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1COMPRESSEDTILE_1FREE_1DATA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1COMPRESSEDTILE_1FREE_1DATA_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   dtCompressedTileFlags result;
   
@@ -11502,7 +11502,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1COMPRESSEDTILE_1FREE_1DATA_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1salt_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1salt_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned int arg2 ;
   
@@ -11515,7 +11515,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1salt_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1salt_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1salt_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned int result;
@@ -11530,7 +11530,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1salt_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1header_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1header_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   dtTileCacheLayerHeader *arg2 = (dtTileCacheLayerHeader *) 0 ;
   
@@ -11544,7 +11544,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1header_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1header_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1header_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   dtTileCacheLayerHeader *result = 0 ;
@@ -11559,7 +11559,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1header_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1compressed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1compressed_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -11572,7 +11572,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1compressed_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1compressed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1compressed_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned char *result = 0 ;
@@ -11587,7 +11587,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1compressed_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1compressedSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1compressedSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   int arg2 ;
   
@@ -11600,7 +11600,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1compressedSize_1set(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCompressedTile_1compressedSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1compressedSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   int result;
@@ -11615,7 +11615,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCompressedTile_1compressedSize_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1data_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -11628,7 +11628,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1data_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1data_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned char *result = 0 ;
@@ -11643,7 +11643,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1data_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1dataSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1dataSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   int arg2 ;
   
@@ -11656,7 +11656,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1dataSize_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtCompressedTile_1dataSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1dataSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   int result;
@@ -11671,7 +11671,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtCompressedTile_1dataSize_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned int arg2 ;
   
@@ -11684,7 +11684,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1flags_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   unsigned int result;
@@ -11699,7 +11699,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1flags_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   dtCompressedTile *arg2 = (dtCompressedTile *) 0 ;
   
@@ -11713,7 +11713,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtCompressedTile_1next_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtCompressedTile_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   dtCompressedTile *result = 0 ;
@@ -11728,7 +11728,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtCompressedTile_1next_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCompressedTile(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtCompressedTile(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtCompressedTile *result = 0 ;
   
@@ -11740,7 +11740,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtCompressedTile(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCompressedTile(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtCompressedTile(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtCompressedTile *arg1 = (dtCompressedTile *) 0 ;
   
   (void)jenv;
@@ -11750,7 +11750,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtCompressedTile(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1TOUCHED_1TILES_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1MAX_1TOUCHED_1TILES_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -11762,7 +11762,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1MAX_1TOUCHED_1TILES_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1pos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1pos_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   float *arg2 ;
   
@@ -11780,7 +11780,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1pos_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1pos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1pos_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   float *result = 0 ;
@@ -11795,7 +11795,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1pos_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1radius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1radius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   float arg2 ;
   
@@ -11808,7 +11808,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1radius_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheObstacle_1radius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1radius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   float result;
@@ -11823,7 +11823,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheObstacle_1radius_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   float arg2 ;
   
@@ -11836,7 +11836,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1height_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheObstacle_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   float result;
@@ -11851,7 +11851,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheObstacle_1height_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1touched_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1touched_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   dtCompressedTileRef *arg2 ;
   
@@ -11869,7 +11869,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1touched_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1touched_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1touched_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   dtCompressedTileRef *result = 0 ;
@@ -11884,7 +11884,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1touched_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1pending_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1pending_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   dtCompressedTileRef *arg2 ;
   
@@ -11902,7 +11902,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1pending_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1pending_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1pending_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   dtCompressedTileRef *result = 0 ;
@@ -11917,7 +11917,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1pending_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1salt_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1salt_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned short arg2 ;
   
@@ -11930,7 +11930,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1salt_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheObstacle_1salt_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1salt_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned short result;
@@ -11945,7 +11945,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheObstacle_1salt_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1state_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1state_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned char arg2 ;
   
@@ -11958,7 +11958,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1state_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheObstacle_1state_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1state_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned char result;
@@ -11973,7 +11973,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheObstacle_1state_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1ntouched_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1ntouched_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned char arg2 ;
   
@@ -11986,7 +11986,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1ntouched_1set(JNIEnv
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheObstacle_1ntouched_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1ntouched_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned char result;
@@ -12001,7 +12001,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheObstacle_1ntouched_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1npending_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1npending_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned char arg2 ;
   
@@ -12014,7 +12014,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1npending_1set(JNIEnv
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheObstacle_1npending_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1npending_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   unsigned char result;
@@ -12029,7 +12029,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheObstacle_1npending_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   dtTileCacheObstacle *arg2 = (dtTileCacheObstacle *) 0 ;
   
@@ -12043,7 +12043,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheObstacle_1next_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheObstacle_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   dtTileCacheObstacle *result = 0 ;
@@ -12058,7 +12058,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheObstacle_1next_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheObstacle(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheObstacle(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheObstacle *result = 0 ;
   
@@ -12070,7 +12070,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheObstacle(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheObstacle *arg1 = (dtTileCacheObstacle *) 0 ;
   
   (void)jenv;
@@ -12080,7 +12080,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheObstacle(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1orig_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1orig_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float *arg2 ;
   
@@ -12098,7 +12098,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1orig_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheParams_1orig_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1orig_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float *result = 0 ;
@@ -12113,7 +12113,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheParams_1orig_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float arg2 ;
   
@@ -12126,7 +12126,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1cs_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float result;
@@ -12141,7 +12141,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1cs_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float arg2 ;
   
@@ -12154,7 +12154,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1ch_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float result;
@@ -12169,7 +12169,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1ch_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int arg2 ;
   
@@ -12182,7 +12182,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1width_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int result;
@@ -12197,7 +12197,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1width_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int arg2 ;
   
@@ -12210,7 +12210,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1height_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int result;
@@ -12225,7 +12225,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1height_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float arg2 ;
   
@@ -12238,7 +12238,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1walkableHeight_1set(JN
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float result;
@@ -12253,7 +12253,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1walkableHeight_1get(
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float arg2 ;
   
@@ -12266,7 +12266,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1walkableRadius_1set(JN
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float result;
@@ -12281,7 +12281,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1walkableRadius_1get(
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float arg2 ;
   
@@ -12294,7 +12294,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1walkableClimb_1set(JNI
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float result;
@@ -12309,7 +12309,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1walkableClimb_1get(J
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1maxSimplificationError_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1maxSimplificationError_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float arg2 ;
   
@@ -12322,7 +12322,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1maxSimplificationError
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1maxSimplificationError_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1maxSimplificationError_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   float result;
@@ -12337,7 +12337,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_dtTileCacheParams_1maxSimplificationErr
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1maxTiles_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1maxTiles_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int arg2 ;
   
@@ -12350,7 +12350,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1maxTiles_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1maxTiles_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1maxTiles_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int result;
@@ -12365,7 +12365,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1maxTiles_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1maxObstacles_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1maxObstacles_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int arg2 ;
   
@@ -12378,7 +12378,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheParams_1maxObstacles_1set(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1maxObstacles_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheParams_1maxObstacles_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   int result;
@@ -12393,7 +12393,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheParams_1maxObstacles_1get(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheParams(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheParams(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheParams *result = 0 ;
   
@@ -12405,7 +12405,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheParams(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheParams(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheParams *arg1 = (dtTileCacheParams *) 0 ;
   
   (void)jenv;
@@ -12415,7 +12415,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheParams(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheMeshProcess_1process(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheMeshProcess_1process(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
   dtTileCacheMeshProcess *arg1 = (dtTileCacheMeshProcess *) 0 ;
   dtNavMeshCreateParams *arg2 = (dtNavMeshCreateParams *) 0 ;
   unsigned char *arg3 = (unsigned char *) 0 ;
@@ -12433,7 +12433,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheMeshProcess_1process(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheMeshProcess(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheMeshProcess(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheMeshProcess *arg1 = (dtTileCacheMeshProcess *) 0 ;
   
   (void)jenv;
@@ -12443,7 +12443,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheMeshProcess(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCache(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCache(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCache *result = 0 ;
   
@@ -12455,7 +12455,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCache(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCache(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCache(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   
   (void)jenv;
@@ -12465,7 +12465,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCache(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getAlloc(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getAlloc(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheAlloc *result = 0 ;
@@ -12480,7 +12480,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getAlloc(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getCompressor(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getCompressor(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheCompressor *result = 0 ;
@@ -12495,7 +12495,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getCompressor(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getParams(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheParams *result = 0 ;
@@ -12510,7 +12510,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getParams(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCache_1getTileCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getTileCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int result;
@@ -12525,7 +12525,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCache_1getTileCount(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int arg2 ;
@@ -12542,7 +12542,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTile(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCache_1getObstacleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getObstacleCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int result;
@@ -12557,7 +12557,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCache_1getObstacleCount(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int arg2 ;
@@ -12574,7 +12574,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getObstacle(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getObstacleByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getObstacleByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtObstacleRef arg2 ;
@@ -12591,7 +12591,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getObstacleByRef(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getObstacleRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getObstacleRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheObstacle *arg2 = (dtTileCacheObstacle *) 0 ;
@@ -12609,7 +12609,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getObstacleRef(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1init(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheParams *arg2 = (dtTileCacheParams *) 0 ;
@@ -12636,7 +12636,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1init(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCache_1getTilesAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getTilesAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int arg2 ;
@@ -12659,7 +12659,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCache_1getTilesAt(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTileAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getTileAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int arg2 ;
@@ -12680,7 +12680,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTileAt(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTileRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getTileRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtCompressedTile *arg2 = (dtCompressedTile *) 0 ;
@@ -12698,7 +12698,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTileRef(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTileByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getTileByRef(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtCompressedTileRef arg2 ;
@@ -12715,7 +12715,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1getTileByRef(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1addTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jshort jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1addTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jshort jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
@@ -12738,7 +12738,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1addTile(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1removeTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1removeTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtCompressedTileRef arg2 ;
@@ -12759,7 +12759,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1removeTile(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1addObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1addObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12782,7 +12782,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1addObstacle(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1removeObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1removeObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtObstacleRef arg2 ;
@@ -12799,7 +12799,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1removeObstacle(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1queryTiles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1queryTiles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -12824,7 +12824,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1queryTiles(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1update(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jobject jarg3_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   float arg2 ;
@@ -12844,7 +12844,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1update(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1buildNavMeshTilesAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1buildNavMeshTilesAt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   int arg2 ;
@@ -12866,7 +12866,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1buildNavMeshTilesAt(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1buildNavMeshTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1buildNavMeshTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jobject jarg3_) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtCompressedTileRef arg2 ;
@@ -12886,7 +12886,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1buildNavMeshTile(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCache_1calcTightTileBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1calcTightTileBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheLayerHeader *arg2 = (dtTileCacheLayerHeader *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -12904,7 +12904,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCache_1calcTightTileBounds(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCache_1getObstacleBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1getObstacleBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4) {
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtTileCacheObstacle *arg2 = (dtTileCacheObstacle *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -12922,7 +12922,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCache_1getObstacleBounds(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1encodeTileId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1encodeTileId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   unsigned int arg2 ;
@@ -12941,7 +12941,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1encodeTileId(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeTileIdSalt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1decodeTileIdSalt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtCompressedTileRef arg2 ;
@@ -12958,7 +12958,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeTileIdSalt(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeTileIdTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1decodeTileIdTile(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtCompressedTileRef arg2 ;
@@ -12975,7 +12975,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeTileIdTile(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1encodeObstacleId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1encodeObstacleId(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   unsigned int arg2 ;
@@ -12994,7 +12994,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1encodeObstacleId(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeObstacleIdSalt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1decodeObstacleIdSalt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtObstacleRef arg2 ;
@@ -13011,7 +13011,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeObstacleIdSalt(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeObstacleIdObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCache_1decodeObstacleIdObstacle(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   jlong jresult = 0 ;
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   dtObstacleRef arg2 ;
@@ -13028,7 +13028,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCache_1decodeObstacleIdObstacle(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocTileCache(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocTileCache(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCache *result = 0 ;
   
@@ -13040,7 +13040,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocTileCache(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCache(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeTileCache(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtTileCache *arg1 = (dtTileCache *) 0 ;
   
   (void)jenv;
@@ -13051,7 +13051,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCache(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILECACHE_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1TILECACHE_1MAGIC_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -13063,7 +13063,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILECACHE_1MAGIC_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILECACHE_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1TILECACHE_1VERSION_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -13075,7 +13075,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILECACHE_1VERSION_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_DT_1TILECACHE_1NULL_1AREA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1TILECACHE_1NULL_1AREA_1get(JNIEnv *jenv, jclass jcls) {
   jshort jresult = 0 ;
   unsigned char result;
   
@@ -13087,7 +13087,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_DT_1TILECACHE_1NULL_1AREA_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_DT_1TILECACHE_1WALKABLE_1AREA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1TILECACHE_1WALKABLE_1AREA_1get(JNIEnv *jenv, jclass jcls) {
   jshort jresult = 0 ;
   unsigned char result;
   
@@ -13099,7 +13099,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_DT_1TILECACHE_1WALKABLE_1AREA_1get(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILECACHE_1NULL_1IDX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_DT_1TILECACHE_1NULL_1IDX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   unsigned short result;
   
@@ -13111,7 +13111,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_DT_1TILECACHE_1NULL_1IDX_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1magic_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1magic_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int arg2 ;
   
@@ -13124,7 +13124,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1magic_1set(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1magic_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1magic_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int result;
@@ -13139,7 +13139,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1magic_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1version_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1version_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int arg2 ;
   
@@ -13152,7 +13152,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1version_1set(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1version_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1version_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int result;
@@ -13167,7 +13167,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1version_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1tx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int arg2 ;
   
@@ -13180,7 +13180,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tx_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1tx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int result;
@@ -13195,7 +13195,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tx_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1ty_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1ty_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int arg2 ;
   
@@ -13208,7 +13208,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1ty_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1ty_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1ty_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int result;
@@ -13223,7 +13223,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1ty_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tlayer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1tlayer_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int arg2 ;
   
@@ -13236,7 +13236,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tlayer_1set(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tlayer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1tlayer_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   int result;
@@ -13251,7 +13251,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1tlayer_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   float *arg2 ;
   
@@ -13269,7 +13269,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmin_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   float *result = 0 ;
@@ -13284,7 +13284,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmin_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   float *arg2 ;
   
@@ -13302,7 +13302,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmax_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   float *result = 0 ;
@@ -13317,7 +13317,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1bmax_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1hmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned short arg2 ;
   
@@ -13330,7 +13330,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmin_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1hmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned short result;
@@ -13345,7 +13345,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmin_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1hmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned short arg2 ;
   
@@ -13358,7 +13358,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmax_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1hmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned short result;
@@ -13373,7 +13373,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1hmax_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char arg2 ;
   
@@ -13386,7 +13386,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1width_1set(JNIEnv
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char result;
@@ -13401,7 +13401,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1width_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char arg2 ;
   
@@ -13414,7 +13414,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1height_1set(JNIEn
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char result;
@@ -13429,7 +13429,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1height_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1minx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1minx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char arg2 ;
   
@@ -13442,7 +13442,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1minx_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1minx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1minx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char result;
@@ -13457,7 +13457,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1minx_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1maxx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char arg2 ;
   
@@ -13470,7 +13470,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxx_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1maxx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char result;
@@ -13485,7 +13485,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxx_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1miny_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1miny_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char arg2 ;
   
@@ -13498,7 +13498,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1miny_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1miny_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1miny_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char result;
@@ -13513,7 +13513,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1miny_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxy_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1maxy_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char arg2 ;
   
@@ -13526,7 +13526,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxy_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxy_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayerHeader_1maxy_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   unsigned char result;
@@ -13541,7 +13541,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayerHeader_1maxy_1get(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheLayerHeader(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheLayerHeader(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheLayerHeader *result = 0 ;
   
@@ -13553,7 +13553,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheLayerHeader(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheLayerHeader(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheLayerHeader(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheLayerHeader *arg1 = (dtTileCacheLayerHeader *) 0 ;
   
   (void)jenv;
@@ -13563,7 +13563,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheLayerHeader(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1header_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1header_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   dtTileCacheLayerHeader *arg2 = (dtTileCacheLayerHeader *) 0 ;
   
@@ -13577,7 +13577,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1header_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1header_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1header_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   dtTileCacheLayerHeader *result = 0 ;
@@ -13592,7 +13592,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1header_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1regCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1regCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char arg2 ;
   
@@ -13605,7 +13605,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1regCount_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayer_1regCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1regCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char result;
@@ -13620,7 +13620,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheLayer_1regCount_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1heights_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1heights_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -13633,7 +13633,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1heights_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1heights_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1heights_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -13648,7 +13648,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1heights_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -13661,7 +13661,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1areas_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -13676,7 +13676,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1areas_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1cons_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1cons_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -13689,7 +13689,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1cons_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1cons_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1cons_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -13704,7 +13704,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1cons_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1regs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1regs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -13717,7 +13717,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheLayer_1regs_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1regs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheLayer_1regs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -13732,7 +13732,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheLayer_1regs_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheLayer(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheLayer(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheLayer *result = 0 ;
   
@@ -13744,7 +13744,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheLayer(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheLayer *arg1 = (dtTileCacheLayer *) 0 ;
   
   (void)jenv;
@@ -13754,7 +13754,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheLayer(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   int arg2 ;
   
@@ -13767,7 +13767,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1nverts_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheContour_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   int result;
@@ -13782,7 +13782,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheContour_1nverts_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -13795,7 +13795,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1verts_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheContour_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   unsigned char *result = 0 ;
@@ -13810,7 +13810,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheContour_1verts_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1reg_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1reg_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   unsigned char arg2 ;
   
@@ -13823,7 +13823,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1reg_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheContour_1reg_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1reg_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   unsigned char result;
@@ -13838,7 +13838,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheContour_1reg_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1area_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1area_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   unsigned char arg2 ;
   
@@ -13851,7 +13851,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContour_1area_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheContour_1area_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContour_1area_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   unsigned char result;
@@ -13866,7 +13866,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_dtTileCacheContour_1area_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheContour(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheContour(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheContour *result = 0 ;
   
@@ -13878,7 +13878,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheContour(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheContour(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheContour(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheContour *arg1 = (dtTileCacheContour *) 0 ;
   
   (void)jenv;
@@ -13888,7 +13888,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheContour(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContourSet_1nconts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContourSet_1nconts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCacheContourSet *arg1 = (dtTileCacheContourSet *) 0 ;
   int arg2 ;
   
@@ -13901,7 +13901,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContourSet_1nconts_1set(JNIEnv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheContourSet_1nconts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContourSet_1nconts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCacheContourSet *arg1 = (dtTileCacheContourSet *) 0 ;
   int result;
@@ -13916,7 +13916,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheContourSet_1nconts_1get(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContourSet_1conts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContourSet_1conts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtTileCacheContourSet *arg1 = (dtTileCacheContourSet *) 0 ;
   dtTileCacheContour *arg2 = (dtTileCacheContour *) 0 ;
   
@@ -13930,7 +13930,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheContourSet_1conts_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheContourSet_1conts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheContourSet_1conts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheContourSet *arg1 = (dtTileCacheContourSet *) 0 ;
   dtTileCacheContour *result = 0 ;
@@ -13945,7 +13945,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheContourSet_1conts_1get(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheContourSet(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheContourSet(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheContourSet *result = 0 ;
   
@@ -13957,7 +13957,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheContourSet(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheContourSet *arg1 = (dtTileCacheContourSet *) 0 ;
   
   (void)jenv;
@@ -13967,7 +13967,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheContourSet(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nvp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1nvp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   int arg2 ;
   
@@ -13980,7 +13980,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nvp_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nvp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1nvp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   int result;
@@ -13995,7 +13995,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nvp_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   int arg2 ;
   
@@ -14008,7 +14008,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nverts_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   int result;
@@ -14023,7 +14023,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCachePolyMesh_1nverts_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1npolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1npolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   int arg2 ;
   
@@ -14036,7 +14036,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1npolys_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCachePolyMesh_1npolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1npolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   int result;
@@ -14051,7 +14051,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCachePolyMesh_1npolys_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -14064,7 +14064,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1verts_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -14079,7 +14079,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1verts_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -14092,7 +14092,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1polys_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -14107,7 +14107,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1polys_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -14120,7 +14120,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1flags_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -14135,7 +14135,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1flags_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -14148,7 +14148,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCachePolyMesh_1areas_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCachePolyMesh_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   unsigned char *result = 0 ;
@@ -14163,7 +14163,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCachePolyMesh_1areas_1get(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCachePolyMesh(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCachePolyMesh(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCachePolyMesh *result = 0 ;
   
@@ -14175,7 +14175,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCachePolyMesh(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCachePolyMesh *arg1 = (dtTileCachePolyMesh *) 0 ;
   
   (void)jenv;
@@ -14185,7 +14185,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCachePolyMesh(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheAlloc_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheAlloc_1reset(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   
   (void)jenv;
@@ -14196,7 +14196,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheAlloc_1reset(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheAlloc_1alloc(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheAlloc_1alloc(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   int arg2 ;
@@ -14213,7 +14213,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheAlloc_1alloc(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheAlloc_1free(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheAlloc_1free(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -14226,7 +14226,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtTileCacheAlloc_1free(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheAlloc(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1dtTileCacheAlloc(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *result = 0 ;
   
@@ -14238,7 +14238,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1dtTileCacheAlloc(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheAlloc(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheAlloc(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   
   (void)jenv;
@@ -14248,7 +14248,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheAlloc(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheCompressor_1maxCompressedSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheCompressor_1maxCompressedSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   dtTileCacheCompressor *arg1 = (dtTileCacheCompressor *) 0 ;
   int arg2 ;
@@ -14265,7 +14265,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_dtTileCacheCompressor_1maxCompressedSize(
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheCompressor_1compress(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jint jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheCompressor_1compress(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jint jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   dtTileCacheCompressor *arg1 = (dtTileCacheCompressor *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
@@ -14290,7 +14290,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheCompressor_1compress(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheCompressor_1decompress(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jint jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheCompressor_1decompress(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jint jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   dtTileCacheCompressor *arg1 = (dtTileCacheCompressor *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
@@ -14315,7 +14315,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtTileCacheCompressor_1decompress(JNIEnv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheCompressor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1dtTileCacheCompressor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   dtTileCacheCompressor *arg1 = (dtTileCacheCompressor *) 0 ;
   
   (void)jenv;
@@ -14325,7 +14325,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1dtTileCacheCompressor(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBuildTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
   jlong jresult = 0 ;
   dtTileCacheCompressor *arg1 = (dtTileCacheCompressor *) 0 ;
   dtTileCacheLayerHeader *arg2 = (dtTileCacheLayerHeader *) 0 ;
@@ -14353,7 +14353,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheLayer(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheLayer *arg2 = (dtTileCacheLayer *) 0 ;
   
@@ -14367,7 +14367,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCacheLayer(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtDecompressTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jint jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtDecompressTileCacheLayer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jint jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheCompressor *arg2 = (dtTileCacheCompressor *) 0 ;
@@ -14391,7 +14391,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtDecompressTileCacheLayer(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocTileCacheContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocTileCacheContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheContourSet *result = 0 ;
@@ -14406,7 +14406,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocTileCacheContourSet(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCacheContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeTileCacheContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheContourSet *arg2 = (dtTileCacheContourSet *) 0 ;
   
@@ -14420,7 +14420,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCacheContourSet(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtAllocTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCachePolyMesh *result = 0 ;
@@ -14435,7 +14435,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtAllocTileCachePolyMesh(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtFreeTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCachePolyMesh *arg2 = (dtTileCachePolyMesh *) 0 ;
   
@@ -14449,7 +14449,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_dtFreeTileCachePolyMesh(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMarkCylinderArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jfloat jarg6, jfloat jarg7, jshort jarg8) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtMarkCylinderArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jlong jarg5, jfloat jarg6, jfloat jarg7, jshort jarg8) {
   jlong jresult = 0 ;
   dtTileCacheLayer *arg1 = 0 ;
   float *arg2 = (float *) 0 ;
@@ -14466,7 +14466,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMarkCylinderArea(JNIEnv *jenv, jclass 
   (void)jarg1_;
   arg1 = *(dtTileCacheLayer **)&jarg1;
   if (!arg1) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "dtTileCacheLayer & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "TileCacheLayer & reference is null");
     return 0;
   } 
   arg2 = *(float **)&jarg2; 
@@ -14482,7 +14482,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtMarkCylinderArea(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheRegions(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBuildTileCacheRegions(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheLayer *arg2 = 0 ;
@@ -14496,7 +14496,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheRegions(JNIEnv *jenv, jc
   arg1 = *(dtTileCacheAlloc **)&jarg1; 
   arg2 = *(dtTileCacheLayer **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "dtTileCacheLayer & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "TileCacheLayer & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
@@ -14506,7 +14506,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheRegions(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheContours(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBuildTileCacheContours(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jfloat jarg4, jlong jarg5, jobject jarg5_) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheLayer *arg2 = 0 ;
@@ -14523,14 +14523,14 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheContours(JNIEnv *jenv, j
   arg1 = *(dtTileCacheAlloc **)&jarg1; 
   arg2 = *(dtTileCacheLayer **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "dtTileCacheLayer & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "TileCacheLayer & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
   arg4 = (float)jarg4; 
   arg5 = *(dtTileCacheContourSet **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "dtTileCacheContourSet & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "TileCacheContourSet & reference is null");
     return 0;
   } 
   result = (dtStatus)dtBuildTileCacheContours(arg1,*arg2,arg3,arg4,*arg5);
@@ -14539,7 +14539,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCacheContours(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtBuildTileCachePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
   jlong jresult = 0 ;
   dtTileCacheAlloc *arg1 = (dtTileCacheAlloc *) 0 ;
   dtTileCacheContourSet *arg2 = 0 ;
@@ -14554,12 +14554,12 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCachePolyMesh(JNIEnv *jenv, j
   arg1 = *(dtTileCacheAlloc **)&jarg1; 
   arg2 = *(dtTileCacheContourSet **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "dtTileCacheContourSet & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "TileCacheContourSet & reference is null");
     return 0;
   } 
   arg3 = *(dtTileCachePolyMesh **)&jarg3;
   if (!arg3) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "dtTileCachePolyMesh & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "TileCachePolyMesh & reference is null");
     return 0;
   } 
   result = (dtStatus)dtBuildTileCachePolyMesh(arg1,*arg2,*arg3);
@@ -14568,7 +14568,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_dtBuildTileCachePolyMesh(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtTileCacheHeaderSwapEndian(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_dtTileCacheHeaderSwapEndian(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jboolean jresult = 0 ;
   unsigned char *arg1 = (unsigned char *) 0 ;
   int arg2 ;
@@ -14584,7 +14584,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_dtTileCacheHeaderSwapEndian(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_RC_1PI_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1PI_1get(JNIEnv *jenv, jclass jcls) {
   jfloat jresult = 0 ;
   float result;
   
@@ -14596,7 +14596,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_RC_1PI_1get(JNIEnv *jenv, jclass jcls) 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1LOG_1PROGRESS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1LOG_1PROGRESS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   rcLogCategory result;
   
@@ -14608,7 +14608,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1LOG_1PROGRESS_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContext_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jboolean jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcContext_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jboolean jarg1) {
   jlong jresult = 0 ;
   bool arg1 ;
   rcContext *result = 0 ;
@@ -14622,7 +14622,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContext_1_1SWIG_10(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContext_1_1SWIG_11(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcContext_1_1SWIG_11(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcContext *result = 0 ;
   
@@ -14634,7 +14634,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContext_1_1SWIG_11(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcContext(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcContext(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcContext *arg1 = (rcContext *) 0 ;
   
   (void)jenv;
@@ -14644,7 +14644,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcContext(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1enableLog(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1enableLog(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   rcContext *arg1 = (rcContext *) 0 ;
   bool arg2 ;
   
@@ -14657,7 +14657,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1enableLog(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1resetLog(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1resetLog(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcContext *arg1 = (rcContext *) 0 ;
   
   (void)jenv;
@@ -14668,7 +14668,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1resetLog(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1log(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jstring jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1log(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jstring jarg3) {
   rcContext *arg1 = (rcContext *) 0 ;
   rcLogCategory arg2 ;
   char *arg3 = (char *) 0 ;
@@ -14689,7 +14689,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1log(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1enableTimer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1enableTimer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   rcContext *arg1 = (rcContext *) 0 ;
   bool arg2 ;
   
@@ -14702,7 +14702,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1enableTimer(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1resetTimers(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1resetTimers(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcContext *arg1 = (rcContext *) 0 ;
   
   (void)jenv;
@@ -14713,7 +14713,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1resetTimers(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1startTimer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1startTimer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContext *arg1 = (rcContext *) 0 ;
   rcTimerLabel arg2 ;
   
@@ -14726,7 +14726,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1startTimer(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1stopTimer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1stopTimer(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContext *arg1 = (rcContext *) 0 ;
   rcTimerLabel arg2 ;
   
@@ -14739,7 +14739,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContext_1stopTimer(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContext_1getAccumulatedTime(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContext_1getAccumulatedTime(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcTimerLabel arg2 ;
@@ -14756,7 +14756,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContext_1getAccumulatedTime(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -14769,7 +14769,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1width_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -14784,7 +14784,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1width_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -14797,7 +14797,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1height_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -14812,7 +14812,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1height_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1tileSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1tileSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -14825,7 +14825,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1tileSize_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1tileSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1tileSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -14840,7 +14840,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1tileSize_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -14853,7 +14853,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1borderSize_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -14868,7 +14868,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1borderSize_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float arg2 ;
   
@@ -14881,7 +14881,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1cs_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float result;
@@ -14896,7 +14896,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1cs_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float arg2 ;
   
@@ -14909,7 +14909,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1ch_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float result;
@@ -14924,7 +14924,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1ch_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float *arg2 ;
   
@@ -14942,7 +14942,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1bmin_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcConfig_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float *result = 0 ;
@@ -14957,7 +14957,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcConfig_1bmin_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float *arg2 ;
   
@@ -14975,7 +14975,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1bmax_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcConfig_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float *result = 0 ;
@@ -14990,7 +14990,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcConfig_1bmax_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableSlopeAngle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableSlopeAngle_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float arg2 ;
   
@@ -15003,7 +15003,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableSlopeAngle_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1walkableSlopeAngle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableSlopeAngle_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float result;
@@ -15018,7 +15018,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1walkableSlopeAngle_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15031,7 +15031,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableHeight_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15046,7 +15046,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1walkableHeight_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15059,7 +15059,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableClimb_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15074,7 +15074,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1walkableClimb_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableRadius_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15087,7 +15087,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1walkableRadius_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1walkableRadius_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15102,7 +15102,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1walkableRadius_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1maxEdgeLen_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1maxEdgeLen_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15115,7 +15115,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1maxEdgeLen_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1maxEdgeLen_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1maxEdgeLen_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15130,7 +15130,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1maxEdgeLen_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1maxSimplificationError_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1maxSimplificationError_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float arg2 ;
   
@@ -15143,7 +15143,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1maxSimplificationError_1set(JNI
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1maxSimplificationError_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1maxSimplificationError_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float result;
@@ -15158,7 +15158,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1maxSimplificationError_1get(J
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1minRegionArea_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1minRegionArea_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15171,7 +15171,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1minRegionArea_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1minRegionArea_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1minRegionArea_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15186,7 +15186,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1minRegionArea_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1mergeRegionArea_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1mergeRegionArea_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15199,7 +15199,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1mergeRegionArea_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1mergeRegionArea_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1mergeRegionArea_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15214,7 +15214,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1mergeRegionArea_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1maxVertsPerPoly_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1maxVertsPerPoly_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   int arg2 ;
   
@@ -15227,7 +15227,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1maxVertsPerPoly_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1maxVertsPerPoly_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1maxVertsPerPoly_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   int result;
@@ -15242,7 +15242,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcConfig_1maxVertsPerPoly_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1detailSampleDist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1detailSampleDist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float arg2 ;
   
@@ -15255,7 +15255,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1detailSampleDist_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1detailSampleDist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1detailSampleDist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float result;
@@ -15270,7 +15270,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1detailSampleDist_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1detailSampleMaxError_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1detailSampleMaxError_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   float arg2 ;
   
@@ -15283,7 +15283,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcConfig_1detailSampleMaxError_1set(JNIEn
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1detailSampleMaxError_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcConfig_1detailSampleMaxError_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcConfig *arg1 = (rcConfig *) 0 ;
   float result;
@@ -15298,7 +15298,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcConfig_1detailSampleMaxError_1get(JNI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcConfig(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcConfig(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcConfig *result = 0 ;
   
@@ -15310,7 +15310,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcConfig(JNIEnv *jenv, jclass jcls)
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcConfig(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcConfig(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcConfig *arg1 = (rcConfig *) 0 ;
   
   (void)jenv;
@@ -15320,7 +15320,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcConfig(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1SPAN_1HEIGHT_1BITS_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1SPAN_1HEIGHT_1BITS_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15332,7 +15332,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1SPAN_1HEIGHT_1BITS_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1SPAN_1MAX_1HEIGHT_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1SPAN_1MAX_1HEIGHT_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15344,7 +15344,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1SPAN_1MAX_1HEIGHT_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1SPANS_1PER_1POOL_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1SPANS_1PER_1POOL_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -15356,7 +15356,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1SPANS_1PER_1POOL_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1smin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1smin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcSpan *arg1 = (rcSpan *) 0 ;
   unsigned int arg2 ;
   
@@ -15369,7 +15369,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1smin_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1smin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1smin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcSpan *arg1 = (rcSpan *) 0 ;
   unsigned int result;
@@ -15384,7 +15384,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1smin_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1smax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1smax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcSpan *arg1 = (rcSpan *) 0 ;
   unsigned int arg2 ;
   
@@ -15397,7 +15397,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1smax_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1smax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1smax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcSpan *arg1 = (rcSpan *) 0 ;
   unsigned int result;
@@ -15412,7 +15412,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1smax_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1area_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1area_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcSpan *arg1 = (rcSpan *) 0 ;
   unsigned int arg2 ;
   
@@ -15425,7 +15425,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1area_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1area_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1area_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcSpan *arg1 = (rcSpan *) 0 ;
   unsigned int result;
@@ -15440,7 +15440,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1area_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcSpan *arg1 = (rcSpan *) 0 ;
   rcSpan *arg2 = (rcSpan *) 0 ;
   
@@ -15454,7 +15454,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSpan_1next_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpan_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcSpan *arg1 = (rcSpan *) 0 ;
   rcSpan *result = 0 ;
@@ -15469,7 +15469,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpan_1next_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcSpan(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcSpan(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcSpan *result = 0 ;
   
@@ -15481,7 +15481,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcSpan(JNIEnv *jenv, jclass jcls) {
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcSpan(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcSpan(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcSpan *arg1 = (rcSpan *) 0 ;
   
   (void)jenv;
@@ -15491,7 +15491,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcSpan(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSpanPool_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpanPool_1next_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcSpanPool *arg1 = (rcSpanPool *) 0 ;
   rcSpanPool *arg2 = (rcSpanPool *) 0 ;
   
@@ -15505,7 +15505,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSpanPool_1next_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpanPool_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpanPool_1next_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcSpanPool *arg1 = (rcSpanPool *) 0 ;
   rcSpanPool *result = 0 ;
@@ -15520,7 +15520,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpanPool_1next_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSpanPool_1items_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpanPool_1items_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcSpanPool *arg1 = (rcSpanPool *) 0 ;
   rcSpan *arg2 ;
   
@@ -15539,7 +15539,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSpanPool_1items_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpanPool_1items_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSpanPool_1items_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcSpanPool *arg1 = (rcSpanPool *) 0 ;
   rcSpan *result = 0 ;
@@ -15554,7 +15554,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcSpanPool_1items_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcSpanPool(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcSpanPool(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcSpanPool *result = 0 ;
   
@@ -15566,7 +15566,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcSpanPool(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcSpanPool(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcSpanPool(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcSpanPool *arg1 = (rcSpanPool *) 0 ;
   
   (void)jenv;
@@ -15576,7 +15576,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcSpanPool(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   int arg2 ;
   
@@ -15589,7 +15589,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1width_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfield_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   int result;
@@ -15604,7 +15604,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfield_1width_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   int arg2 ;
   
@@ -15617,7 +15617,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1height_1set(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfield_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   int result;
@@ -15632,7 +15632,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfield_1height_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float *arg2 ;
   
@@ -15650,7 +15650,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1bmin_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float *result = 0 ;
@@ -15665,7 +15665,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1bmin_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float *arg2 ;
   
@@ -15683,7 +15683,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1bmax_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float *result = 0 ;
@@ -15698,7 +15698,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1bmax_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float arg2 ;
   
@@ -15711,7 +15711,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1cs_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfield_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float result;
@@ -15726,7 +15726,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfield_1cs_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float arg2 ;
   
@@ -15739,7 +15739,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1ch_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfield_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   float result;
@@ -15754,7 +15754,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfield_1ch_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1spans_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1spans_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   rcSpan **arg2 = (rcSpan **) 0 ;
   
@@ -15767,7 +15767,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1spans_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1spans_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1spans_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   rcSpan **result = 0 ;
@@ -15782,7 +15782,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1spans_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1pools_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1pools_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   rcSpanPool *arg2 = (rcSpanPool *) 0 ;
   
@@ -15796,7 +15796,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1pools_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1pools_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1pools_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   rcSpanPool *result = 0 ;
@@ -15811,7 +15811,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1pools_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1freelist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1freelist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   rcSpan *arg2 = (rcSpan *) 0 ;
   
@@ -15825,7 +15825,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfield_1freelist_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1freelist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfield_1freelist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   rcSpan *result = 0 ;
@@ -15840,7 +15840,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfield_1freelist_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcHeightfield(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcHeightfield(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcHeightfield *result = 0 ;
   
@@ -15852,7 +15852,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcHeightfield(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   
   (void)jenv;
@@ -15862,7 +15862,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcHeightfield(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactCell_1index_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactCell_1index_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactCell *arg1 = (rcCompactCell *) 0 ;
   unsigned int arg2 ;
   
@@ -15875,7 +15875,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactCell_1index_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactCell_1index_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactCell_1index_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactCell *arg1 = (rcCompactCell *) 0 ;
   unsigned int result;
@@ -15890,7 +15890,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactCell_1index_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactCell_1count_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactCell_1count_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactCell *arg1 = (rcCompactCell *) 0 ;
   unsigned int arg2 ;
   
@@ -15903,7 +15903,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactCell_1count_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactCell_1count_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactCell_1count_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactCell *arg1 = (rcCompactCell *) 0 ;
   unsigned int result;
@@ -15918,7 +15918,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactCell_1count_1get(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcCompactCell(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcCompactCell(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcCompactCell *result = 0 ;
   
@@ -15930,7 +15930,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcCompactCell(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcCompactCell(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcCompactCell(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcCompactCell *arg1 = (rcCompactCell *) 0 ;
   
   (void)jenv;
@@ -15940,7 +15940,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcCompactCell(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1y_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1y_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned short arg2 ;
   
@@ -15953,7 +15953,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1y_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactSpan_1y_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1y_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned short result;
@@ -15968,7 +15968,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactSpan_1y_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1reg_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1reg_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned short arg2 ;
   
@@ -15981,7 +15981,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1reg_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactSpan_1reg_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1reg_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned short result;
@@ -15996,7 +15996,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactSpan_1reg_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1con_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1con_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned int arg2 ;
   
@@ -16009,7 +16009,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1con_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactSpan_1con_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1con_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned int result;
@@ -16024,7 +16024,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactSpan_1con_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1h_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1h_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned int arg2 ;
   
@@ -16037,7 +16037,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactSpan_1h_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactSpan_1h_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactSpan_1h_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   unsigned int result;
@@ -16052,7 +16052,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactSpan_1h_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcCompactSpan(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcCompactSpan(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcCompactSpan *result = 0 ;
   
@@ -16064,7 +16064,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcCompactSpan(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcCompactSpan(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcCompactSpan(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcCompactSpan *arg1 = (rcCompactSpan *) 0 ;
   
   (void)jenv;
@@ -16074,7 +16074,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcCompactSpan(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int arg2 ;
   
@@ -16087,7 +16087,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1width_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int result;
@@ -16102,7 +16102,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1width_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int arg2 ;
   
@@ -16115,7 +16115,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1height_1set(JNIEnv 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int result;
@@ -16130,7 +16130,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1height_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1spanCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1spanCount_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int arg2 ;
   
@@ -16143,7 +16143,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1spanCount_1set(JNIE
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1spanCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1spanCount_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int result;
@@ -16158,7 +16158,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1spanCount_1get(JNIE
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1walkableHeight_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int arg2 ;
   
@@ -16171,7 +16171,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableHeight_1set
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1walkableHeight_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int result;
@@ -16186,7 +16186,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableHeight_1get
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1walkableClimb_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int arg2 ;
   
@@ -16199,7 +16199,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableClimb_1set(
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1walkableClimb_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int result;
@@ -16214,7 +16214,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1walkableClimb_1get(
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int arg2 ;
   
@@ -16227,7 +16227,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1borderSize_1set(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   int result;
@@ -16242,7 +16242,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1borderSize_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1maxDistance_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1maxDistance_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned short arg2 ;
   
@@ -16255,7 +16255,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1maxDistance_1set(JN
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1maxDistance_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1maxDistance_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned short result;
@@ -16270,7 +16270,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1maxDistance_1get(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1maxRegions_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1maxRegions_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned short arg2 ;
   
@@ -16283,7 +16283,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1maxRegions_1set(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1maxRegions_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1maxRegions_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned short result;
@@ -16298,7 +16298,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcCompactHeightfield_1maxRegions_1get(JNI
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float *arg2 ;
   
@@ -16316,7 +16316,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1bmin_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float *result = 0 ;
@@ -16331,7 +16331,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1bmin_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float *arg2 ;
   
@@ -16349,7 +16349,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1bmax_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float *result = 0 ;
@@ -16364,7 +16364,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1bmax_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float arg2 ;
   
@@ -16377,7 +16377,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1cs_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcCompactHeightfield_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float result;
@@ -16392,7 +16392,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcCompactHeightfield_1cs_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float arg2 ;
   
@@ -16405,7 +16405,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1ch_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcCompactHeightfield_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   float result;
@@ -16420,7 +16420,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcCompactHeightfield_1ch_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1cells_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1cells_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   rcCompactCell *arg2 = (rcCompactCell *) 0 ;
   
@@ -16434,7 +16434,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1cells_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1cells_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1cells_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   rcCompactCell *result = 0 ;
@@ -16449,7 +16449,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1cells_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1spans_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1spans_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   rcCompactSpan *arg2 = (rcCompactSpan *) 0 ;
   
@@ -16463,7 +16463,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1spans_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1spans_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1spans_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   rcCompactSpan *result = 0 ;
@@ -16478,7 +16478,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1spans_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1dist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1dist_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -16491,7 +16491,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1dist_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1dist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1dist_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned short *result = 0 ;
@@ -16506,7 +16506,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1dist_1get(JNIEnv *
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -16519,7 +16519,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCompactHeightfield_1areas_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCompactHeightfield_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   unsigned char *result = 0 ;
@@ -16534,7 +16534,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcCompactHeightfield_1areas_1get(JNIEnv 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcCompactHeightfield(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcCompactHeightfield(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcCompactHeightfield *result = 0 ;
   
@@ -16546,7 +16546,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcCompactHeightfield(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcCompactHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcCompactHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   
   (void)jenv;
@@ -16556,7 +16556,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcCompactHeightfield(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float *arg2 ;
   
@@ -16574,7 +16574,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmin_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float *result = 0 ;
@@ -16589,7 +16589,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmin_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float *arg2 ;
   
@@ -16607,7 +16607,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmax_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float *result = 0 ;
@@ -16622,7 +16622,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1bmax_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float arg2 ;
   
@@ -16635,7 +16635,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1cs_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfieldLayer_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float result;
@@ -16650,7 +16650,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfieldLayer_1cs_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float arg2 ;
   
@@ -16663,7 +16663,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1ch_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfieldLayer_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   float result;
@@ -16678,7 +16678,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcHeightfieldLayer_1ch_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16691,7 +16691,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1width_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16706,7 +16706,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1width_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16719,7 +16719,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1height_1set(JNIEnv *j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16734,7 +16734,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1height_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1minx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1minx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16747,7 +16747,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1minx_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1minx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1minx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16762,7 +16762,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1minx_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1maxx_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16775,7 +16775,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxx_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1maxx_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16790,7 +16790,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxx_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1miny_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1miny_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16803,7 +16803,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1miny_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1miny_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1miny_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16818,7 +16818,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1miny_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxy_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1maxy_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16831,7 +16831,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxy_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxy_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1maxy_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16846,7 +16846,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1maxy_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1hmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16859,7 +16859,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmin_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1hmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16874,7 +16874,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmin_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1hmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int arg2 ;
   
@@ -16887,7 +16887,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmax_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1hmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   int result;
@@ -16902,7 +16902,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayer_1hmax_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1heights_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1heights_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -16915,7 +16915,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1heights_1set(JNIEnv *
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1heights_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1heights_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -16930,7 +16930,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1heights_1get(JNIEnv 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -16943,7 +16943,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1areas_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -16958,7 +16958,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1areas_1get(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1cons_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1cons_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -16971,7 +16971,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayer_1cons_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1cons_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayer_1cons_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   unsigned char *result = 0 ;
@@ -16986,7 +16986,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayer_1cons_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcHeightfieldLayer(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcHeightfieldLayer(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcHeightfieldLayer *result = 0 ;
   
@@ -16998,7 +16998,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcHeightfieldLayer(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcHeightfieldLayer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcHeightfieldLayer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcHeightfieldLayer *arg1 = (rcHeightfieldLayer *) 0 ;
   
   (void)jenv;
@@ -17008,7 +17008,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcHeightfieldLayer(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1layers_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayerSet_1layers_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcHeightfieldLayerSet *arg1 = (rcHeightfieldLayerSet *) 0 ;
   rcHeightfieldLayer *arg2 = (rcHeightfieldLayer *) 0 ;
   
@@ -17022,7 +17022,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1layers_1set(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1layers_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayerSet_1layers_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcHeightfieldLayerSet *arg1 = (rcHeightfieldLayerSet *) 0 ;
   rcHeightfieldLayer *result = 0 ;
@@ -17037,7 +17037,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1layers_1get(JNIEn
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1nlayers_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayerSet_1nlayers_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcHeightfieldLayerSet *arg1 = (rcHeightfieldLayerSet *) 0 ;
   int arg2 ;
   
@@ -17050,7 +17050,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1nlayers_1set(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1nlayers_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcHeightfieldLayerSet_1nlayers_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcHeightfieldLayerSet *arg1 = (rcHeightfieldLayerSet *) 0 ;
   int result;
@@ -17065,7 +17065,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcHeightfieldLayerSet_1nlayers_1get(JNIEn
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcHeightfieldLayerSet(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcHeightfieldLayerSet(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcHeightfieldLayerSet *result = 0 ;
   
@@ -17077,7 +17077,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcHeightfieldLayerSet(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcHeightfieldLayerSet(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcHeightfieldLayerSet(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcHeightfieldLayerSet *arg1 = (rcHeightfieldLayerSet *) 0 ;
   
   (void)jenv;
@@ -17087,7 +17087,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcHeightfieldLayerSet(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcContour *arg1 = (rcContour *) 0 ;
   int *arg2 = (int *) 0 ;
   
@@ -17100,7 +17100,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1verts_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContour_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcContour *arg1 = (rcContour *) 0 ;
   int *result = 0 ;
@@ -17115,7 +17115,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContour_1verts_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContour *arg1 = (rcContour *) 0 ;
   int arg2 ;
   
@@ -17128,7 +17128,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1nverts_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContour_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContour *arg1 = (rcContour *) 0 ;
   int result;
@@ -17143,7 +17143,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContour_1nverts_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1rverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1rverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcContour *arg1 = (rcContour *) 0 ;
   int *arg2 = (int *) 0 ;
   
@@ -17156,7 +17156,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1rverts_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContour_1rverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1rverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcContour *arg1 = (rcContour *) 0 ;
   int *result = 0 ;
@@ -17171,7 +17171,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContour_1rverts_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1nrverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1nrverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContour *arg1 = (rcContour *) 0 ;
   int arg2 ;
   
@@ -17184,7 +17184,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1nrverts_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContour_1nrverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1nrverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContour *arg1 = (rcContour *) 0 ;
   int result;
@@ -17199,7 +17199,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContour_1nrverts_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1reg_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1reg_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContour *arg1 = (rcContour *) 0 ;
   unsigned short arg2 ;
   
@@ -17212,7 +17212,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1reg_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContour_1reg_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1reg_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContour *arg1 = (rcContour *) 0 ;
   unsigned short result;
@@ -17227,7 +17227,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContour_1reg_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1area_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1area_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshort jarg2) {
   rcContour *arg1 = (rcContour *) 0 ;
   unsigned char arg2 ;
   
@@ -17240,7 +17240,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContour_1area_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_rcContour_1area_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContour_1area_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jshort jresult = 0 ;
   rcContour *arg1 = (rcContour *) 0 ;
   unsigned char result;
@@ -17255,7 +17255,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_rcContour_1area_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContour(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcContour(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcContour *result = 0 ;
   
@@ -17267,7 +17267,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContour(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcContour(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcContour(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcContour *arg1 = (rcContour *) 0 ;
   
   (void)jenv;
@@ -17277,7 +17277,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcContour(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1conts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1conts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   rcContour *arg2 = (rcContour *) 0 ;
   
@@ -17291,7 +17291,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1conts_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContourSet_1conts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1conts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   rcContour *result = 0 ;
@@ -17306,7 +17306,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContourSet_1conts_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1nconts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1nconts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int arg2 ;
   
@@ -17319,7 +17319,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1nconts_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1nconts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1nconts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int result;
@@ -17334,7 +17334,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1nconts_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float *arg2 ;
   
@@ -17352,7 +17352,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1bmin_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContourSet_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float *result = 0 ;
@@ -17367,7 +17367,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContourSet_1bmin_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float *arg2 ;
   
@@ -17385,7 +17385,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1bmax_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContourSet_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float *result = 0 ;
@@ -17400,7 +17400,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcContourSet_1bmax_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float arg2 ;
   
@@ -17413,7 +17413,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1cs_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcContourSet_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float result;
@@ -17428,7 +17428,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcContourSet_1cs_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float arg2 ;
   
@@ -17441,7 +17441,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1ch_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcContourSet_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   float result;
@@ -17456,7 +17456,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcContourSet_1ch_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1width_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int arg2 ;
   
@@ -17469,7 +17469,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1width_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1width_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int result;
@@ -17484,7 +17484,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1width_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1height_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int arg2 ;
   
@@ -17497,7 +17497,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1height_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1height_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int result;
@@ -17512,7 +17512,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1height_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int arg2 ;
   
@@ -17525,7 +17525,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcContourSet_1borderSize_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcContourSet_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   int result;
@@ -17540,7 +17540,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcContourSet_1borderSize_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContourSet(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcContourSet(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcContourSet *result = 0 ;
   
@@ -17552,7 +17552,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcContourSet(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   
   (void)jenv;
@@ -17562,7 +17562,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcContourSet(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -17575,7 +17575,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1verts_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -17590,7 +17590,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1verts_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1polys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -17603,7 +17603,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1polys_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1polys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -17618,7 +17618,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1polys_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1regs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1regs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -17631,7 +17631,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1regs_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1regs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1regs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -17646,7 +17646,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1regs_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1flags_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *arg2 = (unsigned short *) 0 ;
   
@@ -17659,7 +17659,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1flags_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1flags_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned short *result = 0 ;
@@ -17674,7 +17674,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1flags_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1areas_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -17687,7 +17687,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1areas_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1areas_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   unsigned char *result = 0 ;
@@ -17702,7 +17702,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1areas_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int arg2 ;
   
@@ -17715,7 +17715,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1nverts_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int result;
@@ -17730,7 +17730,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1nverts_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1npolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1npolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int arg2 ;
   
@@ -17743,7 +17743,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1npolys_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1npolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1npolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int result;
@@ -17758,7 +17758,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1npolys_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1maxpolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1maxpolys_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int arg2 ;
   
@@ -17771,7 +17771,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1maxpolys_1set(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1maxpolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1maxpolys_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int result;
@@ -17786,7 +17786,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1maxpolys_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1nvp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1nvp_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int arg2 ;
   
@@ -17799,7 +17799,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1nvp_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1nvp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1nvp_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int result;
@@ -17814,7 +17814,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1nvp_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1bmin_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float *arg2 ;
   
@@ -17832,7 +17832,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1bmin_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1bmin_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float *result = 0 ;
@@ -17847,7 +17847,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1bmin_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1bmax_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float *arg2 ;
   
@@ -17865,7 +17865,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1bmax_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1bmax_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float *result = 0 ;
@@ -17880,7 +17880,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMesh_1bmax_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1cs_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float arg2 ;
   
@@ -17893,7 +17893,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1cs_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcPolyMesh_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1cs_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float result;
@@ -17908,7 +17908,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcPolyMesh_1cs_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1ch_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float arg2 ;
   
@@ -17921,7 +17921,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1ch_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcPolyMesh_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1ch_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jfloat jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   float result;
@@ -17936,7 +17936,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcPolyMesh_1ch_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1borderSize_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int arg2 ;
   
@@ -17949,7 +17949,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMesh_1borderSize_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMesh_1borderSize_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   int result;
@@ -17964,7 +17964,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMesh_1borderSize_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcPolyMesh(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcPolyMesh(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcPolyMesh *result = 0 ;
   
@@ -17976,7 +17976,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcPolyMesh(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcPolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcPolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   
   (void)jenv;
@@ -17986,7 +17986,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcPolyMesh(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1meshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1meshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   unsigned int *arg2 = (unsigned int *) 0 ;
   
@@ -17999,7 +17999,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1meshes_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMeshDetail_1meshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1meshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   unsigned int *result = 0 ;
@@ -18014,7 +18014,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMeshDetail_1meshes_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1verts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -18027,7 +18027,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1verts_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMeshDetail_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1verts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   float *result = 0 ;
@@ -18042,7 +18042,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMeshDetail_1verts_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1tris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1tris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   unsigned char *arg2 = (unsigned char *) 0 ;
   
@@ -18055,7 +18055,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1tris_1set(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMeshDetail_1tris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1tris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   unsigned char *result = 0 ;
@@ -18070,7 +18070,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcPolyMeshDetail_1tris_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1nmeshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1nmeshes_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   int arg2 ;
   
@@ -18083,7 +18083,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1nmeshes_1set(JNIEnv *je
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMeshDetail_1nmeshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1nmeshes_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   int result;
@@ -18098,7 +18098,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMeshDetail_1nmeshes_1get(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1nverts_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   int arg2 ;
   
@@ -18111,7 +18111,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1nverts_1set(JNIEnv *jen
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMeshDetail_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1nverts_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   int result;
@@ -18126,7 +18126,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMeshDetail_1nverts_1get(JNIEnv *jen
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1ntris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1ntris_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   int arg2 ;
   
@@ -18139,7 +18139,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcPolyMeshDetail_1ntris_1set(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMeshDetail_1ntris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcPolyMeshDetail_1ntris_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   int result;
@@ -18154,7 +18154,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcPolyMeshDetail_1ntris_1get(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcPolyMeshDetail(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcPolyMeshDetail(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcPolyMeshDetail *result = 0 ;
   
@@ -18166,7 +18166,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcPolyMeshDetail(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcPolyMeshDetail(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcPolyMeshDetail(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   
   (void)jenv;
@@ -18176,7 +18176,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcPolyMeshDetail(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocHeightfield(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocHeightfield(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcHeightfield *result = 0 ;
   
@@ -18188,7 +18188,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocHeightfield(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeHeightField(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFreeHeightField(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcHeightfield *arg1 = (rcHeightfield *) 0 ;
   
   (void)jenv;
@@ -18199,7 +18199,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeHeightField(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocCompactHeightfield(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocCompactHeightfield(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcCompactHeightfield *result = 0 ;
   
@@ -18211,7 +18211,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocCompactHeightfield(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeCompactHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFreeCompactHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcCompactHeightfield *arg1 = (rcCompactHeightfield *) 0 ;
   
   (void)jenv;
@@ -18222,7 +18222,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeCompactHeightfield(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocHeightfieldLayerSet(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocHeightfieldLayerSet(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcHeightfieldLayerSet *result = 0 ;
   
@@ -18234,7 +18234,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocHeightfieldLayerSet(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeHeightfieldLayerSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFreeHeightfieldLayerSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcHeightfieldLayerSet *arg1 = (rcHeightfieldLayerSet *) 0 ;
   
   (void)jenv;
@@ -18245,7 +18245,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeHeightfieldLayerSet(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocContourSet(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocContourSet(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcContourSet *result = 0 ;
   
@@ -18257,7 +18257,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocContourSet(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFreeContourSet(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcContourSet *arg1 = (rcContourSet *) 0 ;
   
   (void)jenv;
@@ -18268,7 +18268,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFreeContourSet(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocPolyMesh(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocPolyMesh(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcPolyMesh *result = 0 ;
   
@@ -18280,7 +18280,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocPolyMesh(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFreePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFreePolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcPolyMesh *arg1 = (rcPolyMesh *) 0 ;
   
   (void)jenv;
@@ -18291,7 +18291,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFreePolyMesh(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocPolyMeshDetail(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocPolyMeshDetail(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcPolyMeshDetail *result = 0 ;
   
@@ -18303,7 +18303,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAllocPolyMeshDetail(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFreePolyMeshDetail(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFreePolyMeshDetail(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   rcPolyMeshDetail *arg1 = (rcPolyMeshDetail *) 0 ;
   
   (void)jenv;
@@ -18314,7 +18314,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFreePolyMeshDetail(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1BORDER_1REG_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1BORDER_1REG_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   unsigned short result;
   
@@ -18326,7 +18326,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1BORDER_1REG_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1BORDER_1VERTEX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1BORDER_1VERTEX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -18338,7 +18338,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1BORDER_1VERTEX_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1AREA_1BORDER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1AREA_1BORDER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -18350,7 +18350,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1AREA_1BORDER_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1CONTOUR_1TESS_1WALL_1EDGES_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1CONTOUR_1TESS_1WALL_1EDGES_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   rcBuildContoursFlags result;
   
@@ -18362,7 +18362,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1CONTOUR_1TESS_1WALL_1EDGES_1get(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1CONTOUR_1TESS_1AREA_1EDGES_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1CONTOUR_1TESS_1AREA_1EDGES_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   rcBuildContoursFlags result;
   
@@ -18374,7 +18374,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1CONTOUR_1TESS_1AREA_1EDGES_1get(JNIEn
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1CONTOUR_1REG_1MASK_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1CONTOUR_1REG_1MASK_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -18386,7 +18386,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1CONTOUR_1REG_1MASK_1get(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1MESH_1NULL_1IDX_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1MESH_1NULL_1IDX_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   unsigned short result;
   
@@ -18398,7 +18398,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1MESH_1NULL_1IDX_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_RC_1NULL_1AREA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1NULL_1AREA_1get(JNIEnv *jenv, jclass jcls) {
   jshort jresult = 0 ;
   unsigned char result;
   
@@ -18410,7 +18410,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_RC_1NULL_1AREA_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jshort JNICALL Java_RecastJNI_RC_1WALKABLE_1AREA_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jshort JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1WALKABLE_1AREA_1get(JNIEnv *jenv, jclass jcls) {
   jshort jresult = 0 ;
   unsigned char result;
   
@@ -18422,7 +18422,7 @@ SWIGEXPORT jshort JNICALL Java_RecastJNI_RC_1WALKABLE_1AREA_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1NOT_1CONNECTED_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_RC_1NOT_1CONNECTED_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -18434,7 +18434,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_RC_1NOT_1CONNECTED_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcSqrt(JNIEnv *jenv, jclass jcls, jfloat jarg1) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSqrt(JNIEnv *jenv, jclass jcls, jfloat jarg1) {
   jfloat jresult = 0 ;
   float arg1 ;
   float result;
@@ -18448,7 +18448,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcSqrt(JNIEnv *jenv, jclass jcls, jfloa
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVcross(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVcross(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -18462,7 +18462,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVcross(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcVdot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVdot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -18478,7 +18478,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcVdot(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVmad(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jfloat jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVmad(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jfloat jarg4) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -18494,7 +18494,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVmad(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVadd(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVadd(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -18508,7 +18508,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVadd(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVsub(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVsub(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -18522,7 +18522,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVsub(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVmin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVmin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -18534,7 +18534,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVmin(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVmax(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVmax(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -18546,7 +18546,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVmax(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVcopy(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVcopy(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -18558,7 +18558,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVcopy(JNIEnv *jenv, jclass jcls, jlong 
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcVdist(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVdist(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -18574,7 +18574,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcVdist(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcVdistSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jfloat JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVdistSqr(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jfloat jresult = 0 ;
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
@@ -18590,7 +18590,7 @@ SWIGEXPORT jfloat JNICALL Java_RecastJNI_rcVdistSqr(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcVnormalize(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcVnormalize(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   float *arg1 = (float *) 0 ;
   
   (void)jenv;
@@ -18600,7 +18600,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcVnormalize(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCalcBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCalcBounds(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4) {
   float *arg1 = (float *) 0 ;
   int arg2 ;
   float *arg3 = (float *) 0 ;
@@ -18616,7 +18616,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCalcBounds(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcCalcGridSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jfloat jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCalcGridSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jfloat jarg3, jlong jarg4, jlong jarg5) {
   float *arg1 = (float *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
@@ -18634,7 +18634,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcCalcGridSize(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcCreateHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6, jfloat jarg7, jfloat jarg8) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCreateHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6, jfloat jarg7, jfloat jarg8) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcHeightfield *arg2 = 0 ;
@@ -18653,7 +18653,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcCreateHeightfield(JNIEnv *jenv, jcl
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
@@ -18668,7 +18668,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcCreateHeightfield(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkWalkableTriangles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jint jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMarkWalkableTriangles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jint jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
   rcContext *arg1 = (rcContext *) 0 ;
   float arg2 ;
   float *arg3 = (float *) 0 ;
@@ -18691,7 +18691,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkWalkableTriangles(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcClearUnwalkableTriangles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jint jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcClearUnwalkableTriangles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jlong jarg3, jint jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
   rcContext *arg1 = (rcContext *) 0 ;
   float arg2 ;
   float *arg3 = (float *) 0 ;
@@ -18714,7 +18714,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcClearUnwalkableTriangles(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcAddSpan(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jint jarg5, jint jarg6, jshort jarg7, jint jarg8) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAddSpan(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jint jarg5, jint jarg6, jshort jarg7, jint jarg8) {
   rcContext *arg1 = (rcContext *) 0 ;
   rcHeightfield *arg2 = 0 ;
   int arg3 ;
@@ -18731,7 +18731,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcAddSpan(JNIEnv *jenv, jclass jcls, jlon
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   arg3 = (int)jarg3; 
@@ -18744,7 +18744,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcAddSpan(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangle_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jshort jarg5, jlong jarg6, jobject jarg6_, jint jarg7) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangle_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jshort jarg5, jlong jarg6, jobject jarg6_, jint jarg7) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -18764,7 +18764,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangle_1_1SWIG_10(JNIEnv *je
   arg5 = (unsigned char)jarg5; 
   arg6 = *(rcHeightfield **)&jarg6;
   if (!arg6) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   arg7 = (int)jarg7; 
@@ -18772,7 +18772,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangle_1_1SWIG_10(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangle_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jshort jarg5, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangle_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jlong jarg4, jshort jarg5, jlong jarg6, jobject jarg6_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -18791,14 +18791,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangle_1_1SWIG_11(JNIEnv *je
   arg5 = (unsigned char)jarg5; 
   arg6 = *(rcHeightfield **)&jarg6;
   if (!arg6) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcRasterizeTriangle(arg1,(float const *)arg2,(float const *)arg3,(float const *)arg4,arg5,*arg6);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_, jint jarg8) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangles_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_, jint jarg8) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
@@ -18820,7 +18820,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_10(JNIEnv *j
   arg6 = (int)jarg6; 
   arg7 = *(rcHeightfield **)&jarg7;
   if (!arg7) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   arg8 = (int)jarg8; 
@@ -18828,7 +18828,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_10(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangles_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
@@ -18849,14 +18849,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_11(JNIEnv *j
   arg6 = (int)jarg6; 
   arg7 = *(rcHeightfield **)&jarg7;
   if (!arg7) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcRasterizeTriangles(arg1,(float const *)arg2,arg3,(int const *)arg4,(unsigned char const *)arg5,arg6,*arg7);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_12(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_, jint jarg8) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangles_1_1SWIG_12(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_, jint jarg8) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
@@ -18878,7 +18878,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_12(JNIEnv *j
   arg6 = (int)jarg6; 
   arg7 = *(rcHeightfield **)&jarg7;
   if (!arg7) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   arg8 = (int)jarg8; 
@@ -18886,7 +18886,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_12(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_13(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangles_1_1SWIG_13(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jobject jarg7_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
@@ -18907,14 +18907,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_13(JNIEnv *j
   arg6 = (int)jarg6; 
   arg7 = *(rcHeightfield **)&jarg7;
   if (!arg7) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcRasterizeTriangles(arg1,(float const *)arg2,arg3,(unsigned short const *)arg4,(unsigned char const *)arg5,arg6,*arg7);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_14(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jint jarg6) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangles_1_1SWIG_14(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jint jarg6) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   unsigned char *arg3 = (unsigned char *) 0 ;
@@ -18932,7 +18932,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_14(JNIEnv *j
   arg4 = (int)jarg4; 
   arg5 = *(rcHeightfield **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   arg6 = (int)jarg6; 
@@ -18940,7 +18940,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_14(JNIEnv *j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_15(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcRasterizeTriangles_1_1SWIG_15(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jint jarg4, jlong jarg5, jobject jarg5_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   unsigned char *arg3 = (unsigned char *) 0 ;
@@ -18957,14 +18957,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcRasterizeTriangles_1_1SWIG_15(JNIEnv *j
   arg4 = (int)jarg4; 
   arg5 = *(rcHeightfield **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcRasterizeTriangles(arg1,(float const *)arg2,(unsigned char const *)arg3,arg4,*arg5);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFilterLowHangingWalkableObstacles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFilterLowHangingWalkableObstacles(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
   rcContext *arg1 = (rcContext *) 0 ;
   int arg2 ;
   rcHeightfield *arg3 = 0 ;
@@ -18977,14 +18977,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFilterLowHangingWalkableObstacles(JNIEn
   arg2 = (int)jarg2; 
   arg3 = *(rcHeightfield **)&jarg3;
   if (!arg3) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcFilterLowHangingWalkableObstacles(arg1,arg2,*arg3);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFilterLedgeSpans(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFilterLedgeSpans(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   rcContext *arg1 = (rcContext *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -18999,14 +18999,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFilterLedgeSpans(JNIEnv *jenv, jclass j
   arg3 = (int)jarg3; 
   arg4 = *(rcHeightfield **)&jarg4;
   if (!arg4) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcFilterLedgeSpans(arg1,arg2,arg3,*arg4);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFilterWalkableLowHeightSpans(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFilterWalkableLowHeightSpans(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
   rcContext *arg1 = (rcContext *) 0 ;
   int arg2 ;
   rcHeightfield *arg3 = 0 ;
@@ -19019,14 +19019,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFilterWalkableLowHeightSpans(JNIEnv *je
   arg2 = (int)jarg2; 
   arg3 = *(rcHeightfield **)&jarg3;
   if (!arg3) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return ;
   } 
   rcFilterWalkableLowHeightSpans(arg1,arg2,*arg3);
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetHeightFieldSpanCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcGetHeightFieldSpanCount(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jint jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcHeightfield *arg2 = 0 ;
@@ -19039,7 +19039,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetHeightFieldSpanCount(JNIEnv *jenv, j
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return 0;
   } 
   result = (int)rcGetHeightFieldSpanCount(arg1,*arg2);
@@ -19048,7 +19048,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetHeightFieldSpanCount(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildCompactHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildCompactHeightfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jlong jarg4, jobject jarg4_, jlong jarg5, jobject jarg5_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   int arg2 ;
@@ -19067,12 +19067,12 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildCompactHeightfield(JNIEnv *jen
   arg3 = (int)jarg3; 
   arg4 = *(rcHeightfield **)&jarg4;
   if (!arg4) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "Heightfield & reference is null");
     return 0;
   } 
   arg5 = *(rcCompactHeightfield **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   result = (bool)rcBuildCompactHeightfield(arg1,arg2,arg3,*arg4,*arg5);
@@ -19081,7 +19081,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildCompactHeightfield(JNIEnv *jen
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcErodeWalkableArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcErodeWalkableArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jlong jarg3, jobject jarg3_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   int arg2 ;
@@ -19096,7 +19096,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcErodeWalkableArea(JNIEnv *jenv, jcl
   arg2 = (int)jarg2; 
   arg3 = *(rcCompactHeightfield **)&jarg3;
   if (!arg3) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   result = (bool)rcErodeWalkableArea(arg1,arg2,*arg3);
@@ -19105,7 +19105,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcErodeWalkableArea(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMedianFilterWalkableArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMedianFilterWalkableArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19118,7 +19118,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMedianFilterWalkableArea(JNIEnv *je
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   result = (bool)rcMedianFilterWalkableArea(arg1,*arg2);
@@ -19127,7 +19127,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMedianFilterWalkableArea(JNIEnv *je
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkBoxArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jshort jarg4, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMarkBoxArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jshort jarg4, jlong jarg5, jobject jarg5_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -19144,14 +19144,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkBoxArea(JNIEnv *jenv, jclass jcls, 
   arg4 = (unsigned char)jarg4; 
   arg5 = *(rcCompactHeightfield **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return ;
   } 
   rcMarkBoxArea(arg1,(float const *)arg2,(float const *)arg3,arg4,*arg5);
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkConvexPolyArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jfloat jarg4, jfloat jarg5, jshort jarg6, jlong jarg7, jobject jarg7_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMarkConvexPolyArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jfloat jarg4, jfloat jarg5, jshort jarg6, jlong jarg7, jobject jarg7_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   int arg3 ;
@@ -19172,14 +19172,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkConvexPolyArea(JNIEnv *jenv, jclass
   arg6 = (unsigned char)jarg6; 
   arg7 = *(rcCompactHeightfield **)&jarg7;
   if (!arg7) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return ;
   } 
   rcMarkConvexPolyArea(arg1,(float const *)arg2,arg3,arg4,arg5,arg6,*arg7);
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcOffsetPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcOffsetPoly(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jfloat jarg3, jlong jarg4, jint jarg5) {
   jint jresult = 0 ;
   float *arg1 = (float *) 0 ;
   int arg2 ;
@@ -19201,7 +19201,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcOffsetPoly(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkCylinderArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jshort jarg5, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMarkCylinderArea(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jfloat jarg3, jfloat jarg4, jshort jarg5, jlong jarg6, jobject jarg6_) {
   rcContext *arg1 = (rcContext *) 0 ;
   float *arg2 = (float *) 0 ;
   float arg3 ;
@@ -19220,14 +19220,14 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcMarkCylinderArea(JNIEnv *jenv, jclass j
   arg5 = (unsigned char)jarg5; 
   arg6 = *(rcCompactHeightfield **)&jarg6;
   if (!arg6) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return ;
   } 
   rcMarkCylinderArea(arg1,(float const *)arg2,arg3,arg4,arg5,*arg6);
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildDistanceField(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildDistanceField(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19240,7 +19240,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildDistanceField(JNIEnv *jenv, jc
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   result = (bool)rcBuildDistanceField(arg1,*arg2);
@@ -19249,7 +19249,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildDistanceField(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildRegions(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildRegions(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jint jarg5) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19265,7 +19265,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildRegions(JNIEnv *jenv, jclass j
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
@@ -19277,7 +19277,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildRegions(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildRegionsMonotone(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildRegionsMonotone(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jint jarg5) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19293,7 +19293,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildRegionsMonotone(JNIEnv *jenv, 
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
@@ -19305,7 +19305,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildRegionsMonotone(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcSetCon(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcSetCon(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3) {
   rcCompactSpan *arg1 = 0 ;
   int arg2 ;
   int arg3 ;
@@ -19315,7 +19315,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSetCon(JNIEnv *jenv, jclass jcls, jlong
   (void)jarg1_;
   arg1 = *(rcCompactSpan **)&jarg1;
   if (!arg1) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactSpan & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactSpan & reference is null");
     return ;
   } 
   arg2 = (int)jarg2; 
@@ -19324,7 +19324,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcSetCon(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetCon(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcGetCon(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   jint jresult = 0 ;
   rcCompactSpan *arg1 = 0 ;
   int arg2 ;
@@ -19335,7 +19335,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetCon(JNIEnv *jenv, jclass jcls, jlong
   (void)jarg1_;
   arg1 = *(rcCompactSpan **)&jarg1;
   if (!arg1) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactSpan const & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactSpan const & reference is null");
     return 0;
   } 
   arg2 = (int)jarg2; 
@@ -19345,7 +19345,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetCon(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetDirOffsetX(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcGetDirOffsetX(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jint jresult = 0 ;
   int arg1 ;
   int result;
@@ -19359,7 +19359,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetDirOffsetX(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetDirOffsetY(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcGetDirOffsetY(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jint jresult = 0 ;
   int arg1 ;
   int result;
@@ -19373,7 +19373,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcGetDirOffsetY(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildHeightfieldLayers(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildHeightfieldLayers(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jint jarg4, jlong jarg5, jobject jarg5_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19390,14 +19390,14 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildHeightfieldLayers(JNIEnv *jenv
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
   arg4 = (int)jarg4; 
   arg5 = *(rcHeightfieldLayerSet **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcHeightfieldLayerSet & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "HeightfieldLayerSet & reference is null");
     return 0;
   } 
   result = (bool)rcBuildHeightfieldLayers(arg1,*arg2,arg3,arg4,*arg5);
@@ -19406,7 +19406,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildHeightfieldLayers(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildContours_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jfloat jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jint jarg6) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildContours_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jfloat jarg3, jint jarg4, jlong jarg5, jobject jarg5_, jint jarg6) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19424,14 +19424,14 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildContours_1_1SWIG_10(JNIEnv *je
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   arg3 = (float)jarg3; 
   arg4 = (int)jarg4; 
   arg5 = *(rcContourSet **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcContourSet & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "ContourSet & reference is null");
     return 0;
   } 
   arg6 = (int)jarg6; 
@@ -19441,7 +19441,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildContours_1_1SWIG_10(JNIEnv *je
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildContours_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jfloat jarg3, jint jarg4, jlong jarg5, jobject jarg5_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildContours_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jfloat jarg3, jint jarg4, jlong jarg5, jobject jarg5_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcCompactHeightfield *arg2 = 0 ;
@@ -19458,14 +19458,14 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildContours_1_1SWIG_11(JNIEnv *je
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcCompactHeightfield **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield & reference is null");
     return 0;
   } 
   arg3 = (float)jarg3; 
   arg4 = (int)jarg4; 
   arg5 = *(rcContourSet **)&jarg5;
   if (!arg5) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcContourSet & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "ContourSet & reference is null");
     return 0;
   } 
   result = (bool)rcBuildContours(arg1,*arg2,arg3,arg4,*arg5);
@@ -19474,7 +19474,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildContours_1_1SWIG_11(JNIEnv *je
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildPolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildPolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jint jarg3, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcContourSet *arg2 = 0 ;
@@ -19490,13 +19490,13 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildPolyMesh(JNIEnv *jenv, jclass 
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcContourSet **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcContourSet & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "ContourSet & reference is null");
     return 0;
   } 
   arg3 = (int)jarg3; 
   arg4 = *(rcPolyMesh **)&jarg4;
   if (!arg4) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMesh & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMesh & reference is null");
     return 0;
   } 
   result = (bool)rcBuildPolyMesh(arg1,*arg2,arg3,*arg4);
@@ -19505,7 +19505,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildPolyMesh(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMergePolyMeshes(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMergePolyMeshes(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcPolyMesh **arg2 = (rcPolyMesh **) 0 ;
@@ -19522,7 +19522,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMergePolyMeshes(JNIEnv *jenv, jclas
   arg3 = (int)jarg3; 
   arg4 = *(rcPolyMesh **)&jarg4;
   if (!arg4) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMesh & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMesh & reference is null");
     return 0;
   } 
   result = (bool)rcMergePolyMeshes(arg1,arg2,arg3,*arg4);
@@ -19531,7 +19531,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMergePolyMeshes(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildPolyMeshDetail(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jfloat jarg4, jfloat jarg5, jlong jarg6, jobject jarg6_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcBuildPolyMeshDetail(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_, jfloat jarg4, jfloat jarg5, jlong jarg6, jobject jarg6_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcPolyMesh *arg2 = 0 ;
@@ -19550,19 +19550,19 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildPolyMeshDetail(JNIEnv *jenv, j
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcPolyMesh **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMesh const & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMesh const & reference is null");
     return 0;
   } 
   arg3 = *(rcCompactHeightfield **)&jarg3;
   if (!arg3) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcCompactHeightfield const & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "CompactHeightfield const & reference is null");
     return 0;
   } 
   arg4 = (float)jarg4; 
   arg5 = (float)jarg5; 
   arg6 = *(rcPolyMeshDetail **)&jarg6;
   if (!arg6) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMeshDetail & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMeshDetail & reference is null");
     return 0;
   } 
   result = (bool)rcBuildPolyMeshDetail(arg1,(rcPolyMesh const &)*arg2,(rcCompactHeightfield const &)*arg3,arg4,arg5,*arg6);
@@ -19571,7 +19571,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcBuildPolyMeshDetail(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcCopyPolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcCopyPolyMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jobject jarg2_, jlong jarg3, jobject jarg3_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcPolyMesh *arg2 = 0 ;
@@ -19586,12 +19586,12 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcCopyPolyMesh(JNIEnv *jenv, jclass j
   arg1 = *(rcContext **)&jarg1; 
   arg2 = *(rcPolyMesh **)&jarg2;
   if (!arg2) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMesh const & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMesh const & reference is null");
     return 0;
   } 
   arg3 = *(rcPolyMesh **)&jarg3;
   if (!arg3) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMesh & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMesh & reference is null");
     return 0;
   } 
   result = (bool)rcCopyPolyMesh(arg1,(rcPolyMesh const &)*arg2,*arg3);
@@ -19600,7 +19600,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcCopyPolyMesh(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMergePolyMeshDetails(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcMergePolyMeshDetails(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jint jarg3, jlong jarg4, jobject jarg4_) {
   jboolean jresult = 0 ;
   rcContext *arg1 = (rcContext *) 0 ;
   rcPolyMeshDetail **arg2 = (rcPolyMeshDetail **) 0 ;
@@ -19617,7 +19617,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMergePolyMeshDetails(JNIEnv *jenv, 
   arg3 = (int)jarg3; 
   arg4 = *(rcPolyMeshDetail **)&jarg4;
   if (!arg4) {
-    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "rcPolyMeshDetail & reference is null");
+    SWIG_JavaThrowException(jenv, SWIG_JavaNullPointerException, "PolyMeshDetail & reference is null");
     return 0;
   } 
   result = (bool)rcMergePolyMeshDetails(arg1,arg2,arg3,*arg4);
@@ -19626,7 +19626,7 @@ SWIGEXPORT jboolean JNICALL Java_RecastJNI_rcMergePolyMeshDetails(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcAllocSetCustom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAllocSetCustom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   rcAllocFunc *arg1 = (rcAllocFunc *) 0 ;
   rcFreeFunc *arg2 = (rcFreeFunc *) 0 ;
   
@@ -19638,7 +19638,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcAllocSetCustom(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAlloc(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcAlloc(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
   jlong jresult = 0 ;
   int arg1 ;
   rcAllocHint arg2 ;
@@ -19654,7 +19654,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_rcAlloc(JNIEnv *jenv, jclass jcls, jint 
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcFree(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcFree(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void *arg1 = (void *) 0 ;
   
   (void)jenv;
@@ -19664,7 +19664,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcFree(JNIEnv *jenv, jclass jcls, jlong j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcIntArray_1_1SWIG_10(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcIntArray_1_1SWIG_10(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   rcIntArray *result = 0 ;
   
@@ -19676,7 +19676,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcIntArray_1_1SWIG_10(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcIntArray_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1rcIntArray_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   rcIntArray *result = 0 ;
@@ -19690,7 +19690,7 @@ SWIGEXPORT jlong JNICALL Java_RecastJNI_new_1rcIntArray_1_1SWIG_11(JNIEnv *jenv,
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcIntArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1rcIntArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   rcIntArray *arg1 = (rcIntArray *) 0 ;
   
   (void)jenv;
@@ -19700,7 +19700,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_delete_1rcIntArray(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcIntArray_1resize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcIntArray_1resize(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcIntArray *arg1 = (rcIntArray *) 0 ;
   int arg2 ;
   
@@ -19713,7 +19713,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcIntArray_1resize(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_RecastJNI_rcIntArray_1push(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcIntArray_1push(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   rcIntArray *arg1 = (rcIntArray *) 0 ;
   int arg2 ;
   
@@ -19726,7 +19726,7 @@ SWIGEXPORT void JNICALL Java_RecastJNI_rcIntArray_1push(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcIntArray_1pop(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcIntArray_1pop(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcIntArray *arg1 = (rcIntArray *) 0 ;
   int result;
@@ -19741,7 +19741,7 @@ SWIGEXPORT jint JNICALL Java_RecastJNI_rcIntArray_1pop(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_RecastJNI_rcIntArray_1size(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_rcIntArray_1size(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   rcIntArray *arg1 = (rcIntArray *) 0 ;
   int result;
