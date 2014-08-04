@@ -358,6 +358,27 @@ SWIGINTERN LongArray *LongArray_frompointer(long *t){
   return (LongArray *) t;
 }
 
+typedef bool BooleanArray;
+
+SWIGINTERN BooleanArray *new_BooleanArray(int nelements){
+  return new bool[nelements];
+}
+SWIGINTERN void delete_BooleanArray(BooleanArray *self){
+  delete [] self;
+}
+SWIGINTERN bool BooleanArray_getitem(BooleanArray *self,int index){
+  return self[index];
+}
+SWIGINTERN void BooleanArray_setitem(BooleanArray *self,int index,bool value){
+  self[index] = value;
+}
+SWIGINTERN bool *BooleanArray_cast(BooleanArray *self){
+  return self;
+}
+SWIGINTERN BooleanArray *BooleanArray_frompointer(bool *t){
+  return (BooleanArray *) t;
+}
+
 #include "DetourAlloc.h"
 #include "DetourAssert.h"
 #include "DetourCommon.h"
@@ -975,6 +996,91 @@ SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_LongArray_1
   arg1 = *(long **)&jarg1; 
   result = (LongArray *)LongArray_frompointer(arg1);
   *(LongArray **)&jresult = result; 
+  return jresult;
+}
+
+
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_new_1BooleanArray(JNIEnv *jenv, jclass jcls, jint jarg1) {
+  jlong jresult = 0 ;
+  int arg1 ;
+  BooleanArray *result = 0 ;
+  
+  (void)jenv;
+  (void)jcls;
+  arg1 = (int)jarg1; 
+  result = (BooleanArray *)new_BooleanArray(arg1);
+  *(BooleanArray **)&jresult = result; 
+  return jresult;
+}
+
+
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_delete_1BooleanArray(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+  BooleanArray *arg1 = (BooleanArray *) 0 ;
+  
+  (void)jenv;
+  (void)jcls;
+  arg1 = *(BooleanArray **)&jarg1; 
+  delete_BooleanArray(arg1);
+}
+
+
+SWIGEXPORT jboolean JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_BooleanArray_1getitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+  jboolean jresult = 0 ;
+  BooleanArray *arg1 = (BooleanArray *) 0 ;
+  int arg2 ;
+  bool result;
+  
+  (void)jenv;
+  (void)jcls;
+  (void)jarg1_;
+  arg1 = *(BooleanArray **)&jarg1; 
+  arg2 = (int)jarg2; 
+  result = (bool)BooleanArray_getitem(arg1,arg2);
+  jresult = (jboolean)result; 
+  return jresult;
+}
+
+
+SWIGEXPORT void JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_BooleanArray_1setitem(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jboolean jarg3) {
+  BooleanArray *arg1 = (BooleanArray *) 0 ;
+  int arg2 ;
+  bool arg3 ;
+  
+  (void)jenv;
+  (void)jcls;
+  (void)jarg1_;
+  arg1 = *(BooleanArray **)&jarg1; 
+  arg2 = (int)jarg2; 
+  arg3 = jarg3 ? true : false; 
+  BooleanArray_setitem(arg1,arg2,arg3);
+}
+
+
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_BooleanArray_1cast(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+  jlong jresult = 0 ;
+  BooleanArray *arg1 = (BooleanArray *) 0 ;
+  bool *result = 0 ;
+  
+  (void)jenv;
+  (void)jcls;
+  (void)jarg1_;
+  arg1 = *(BooleanArray **)&jarg1; 
+  result = (bool *)BooleanArray_cast(arg1);
+  *(bool **)&jresult = result; 
+  return jresult;
+}
+
+
+SWIGEXPORT jlong JNICALL Java_com_jme3_ai_navigation_utils_RecastJNI_BooleanArray_1frompointer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+  jlong jresult = 0 ;
+  bool *arg1 = (bool *) 0 ;
+  BooleanArray *result = 0 ;
+  
+  (void)jenv;
+  (void)jcls;
+  arg1 = *(bool **)&jarg1; 
+  result = (BooleanArray *)BooleanArray_frompointer(arg1);
+  *(BooleanArray **)&jresult = result; 
   return jresult;
 }
 
